@@ -1,8 +1,8 @@
-import Navbar from "./Navbar"
-import Hero from "./Hero"
-import Links from "./Links"
-import Sponsors from "./Sponsors"
-import Footer from "./Footer"
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import Links from "./Links";
+import Sponsors from "./Sponsors";
+import Footer from "./Footer";
 
 
 export {

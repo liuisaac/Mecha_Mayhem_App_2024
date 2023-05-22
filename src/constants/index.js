@@ -1,29 +1,27 @@
-import logo from '../assets/logo.png';
-
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "HOME",
   },
   {
     id: "apparel",
-    title: "Apparel",
+    title: "APPAREL",
   },
   {
     id: "awards",
-    title: "Awards",
+    title: "AWARDS",
   },
   {
     id: "photography",
-    title: "Photography",
+    title: "PHOTOGRAPHY",
   },
   {
     id: "stream",
-    title: "Stream",
+    title: "STREAM",
   },
   {
     id: "volunteers",
-    title: "Volunteers",
+    title: "VOLUNTEERS",
   }
 ];
 

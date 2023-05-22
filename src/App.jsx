@@ -9,19 +9,19 @@ const App = () => (
         </div>
       </div>
 
-      <div className={'bg-primary ${styles.flexStart}'}>
+      <div className={'bg-gray-gradient ${styles.flexStart}'}>
         <div className={'$(styles.boxWidth}'}>
           <Hero />
         </div>
       </div>
 
-      <div className={'bg-primary ${styles.flexStart}'}>
+      <div className={'bg-gray-gradient ${styles.flexStart}'}>
         <div className={'$(styles.boxWidth}'}>
           <Links />
         </div>
       </div>
 
-      <div className={'bg-primary ${styles.paddingX} ${styles.flexStart}'}>
+      <div className={'bg-gray-gradient ${styles.paddingX} ${styles.flexStart}'}>
         <div className={'$(styles.boxWidth}'}>
           <Sponsors />
           <Footer />

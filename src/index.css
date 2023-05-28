@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Recursive:wght@300;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -51,6 +51,18 @@
   );
 }
 
+.bg-rink-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #fe4818 -43.27%,
+    #fb3a35 -21.24%,
+    #f93249 12.19%,
+    #f82b56 29.82%,
+    #f62566 51.94%,
+    #f31d76 90.29%
+  );
+}
+
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
@@ -76,6 +88,14 @@
     #14101d 95.11%
   );
 }
+.bg-white {
+  background: linear-gradient(
+    153.47deg,
+    rgb(255, 255, 255) -341.94%,
+    #ffffff 95.11%
+  );
+}
+
 
 .bg-discount-gradient {
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);

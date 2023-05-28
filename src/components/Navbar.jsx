@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-3 justify-between items-center navbar">
-        <img src={logo1} alt="Mecha" className="w-[186px] h-[54px] ml-10"/>
+        <img src={logo1} alt="Mecha" className="w-[186px] h-[54px] ml-10 mr-10"/>
         <ul className="list-none sm:flex hidden justify-center items-center flex-1">
             {navLinks.map((nav, index) => (
                 <li
@@ -18,7 +18,7 @@ const Navbar = () => {
                 
                 className={`font-poppins font-normal cursor-pointer tracking-widest text-[20px] ${
                   active === nav.title ? "text-[#e05661] red-text-shadow" : "text-white"
-                } ${index === navLinks.length - 1 ? "mr-12" : "mr-36"}`}
+                } ${index === navLinks.length - 1 ? "mr-12" : "mr-28"}`}
                 onClick={() => setActive(nav.title)}
               >
                     <a href={`#${nav.id}`}>{nav.title}</a>
@@ -28,10 +28,9 @@ const Navbar = () => {
             )}
         </ul>
 
-        <img src={search} alt="Search" className="w-[35-px] h-[35px] ml-10"/>
+        <img src={search} alt="Search" className="w-[35-px] h-[35px] mr-20 "/>
         
-        //mobile
-
+        {/* MOBILE*/}
         <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}

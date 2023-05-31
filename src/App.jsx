@@ -1,5 +1,5 @@
 import styles from "./style"
-import { Navbar, Hero, Links, Sponsors, Footer} from "./components"
+import { Navbar, Hero, Links, Sponsors, Footer, Register} from "./components"
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -12,6 +12,12 @@ const App = () => (
       <div className={'bg-gray-gradient ${styles.flexStart}'}>
         <div className={'$(styles.boxWidth}'}>
           <Hero />
+        </div>
+      </div>
+
+      <div className={'bg-gray-gradident ${styles.flexStart}'}>
+        <div className={'$(styles.boxWidth}'}>
+          <Register />
         </div>
       </div>
 

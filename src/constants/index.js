@@ -20,8 +20,8 @@ export const navLinks = [
     title: "STREAM",
   },
   {
-    id: "volunteers",
-    title: "VOLUNTEERS",
+    id: "info",
+    title: "INFO",
   }
 ];
 

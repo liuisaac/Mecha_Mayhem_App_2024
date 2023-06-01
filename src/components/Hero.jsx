@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="home" className={'flex flex-col ${styles.paddingY}'}>
       {/* Top Bar // No Stream*/}
-      <div className='flex flex-row items-center py-[6px] px-4 bg-gray-gradient rounded-[10px] mb-2 w-full sm:h-[40px] h-[20px]  text-[16px]'>
+      <div className='flex flex-row items-center py-[6px] px-4 bg-gray-gradient rounded-[10px] mb-2 w-full invisible xxs:visible sm:h-[40px] h-[20px] text-[16px]'>
         <img src={leaf} className="w-[20px] h-[20px]"/>
         <p className={`${styles.paragraph} ml-2 text-[12px] sm:text-[18px]`}>
           CANADA'S

@@ -1,12 +1,53 @@
 import styles from '../style';
-import {leaf, bg_vid, splatter, bull, text_1, text_2, banner, hero_footer} from '../assets';
 import "../index.css";
+import "../gallery.css";
 
 const Links = () => {
   return (
-    <section id="links" className={'flex flex-col ${styles.paddingY}'}>
-      <div className={`flex-1 ${styles.flexStart} items-center bg-primary justify-center flex-col relative`}>        
-        
+    <section id="links" className={'flex flex-col relative z-5'}>
+      <div className="flex flex-row items-center justify-center my-5 text-white font-bold text-[20px]">
+        QUICK LINKS
+      </div>
+      <div className='gallery'>        
+        <div className="cards">
+          <div className="card">
+            <h3>
+              Photography
+            </h3>
+          </div>
+
+          <div className="card">
+            <h3>
+              Hello
+            </h3>
+          </div>
+
+          <div className="card">
+            <h3>
+              Hello
+            </h3>
+          </div>
+
+          <div className="card">
+            <h3>
+              Hello
+            </h3>
+          </div>
+
+
+          <div className="card">
+            <h3>
+              Hello
+            </h3>
+          </div>
+
+
+          <div className="card">
+            <h3>
+              Hello
+            </h3>
+          </div>
+        </div>
       </div>
     </section>
   )

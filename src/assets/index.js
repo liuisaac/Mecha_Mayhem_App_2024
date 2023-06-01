@@ -18,6 +18,9 @@ import banner from '../assets/Vector/banner.svg';
 //VIDEO
 import bg_vid from '../assets/Video/thinner.mp4'
 
+//GALLERY
+import photography_slide from '../assets/Raster/Gallery/photography.png'
+
 //EXPORTS
 export {
     logo1, splatter, bhero, hero_footer,
@@ -26,4 +29,6 @@ export {
     bull, text_1, text_2, banner,
 
     bg_vid,
+
+    photography_slide,
 }

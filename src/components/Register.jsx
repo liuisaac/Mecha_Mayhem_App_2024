@@ -5,7 +5,7 @@ import "../index.css";
 const Register = () => {
   return (
     <section id="register" className={'flex flex-col ${styles.paddingY}'}>
-      <div className={`flex-1 ${styles.flexStart} bg-primary justify-center flex-col relative font-poppins font-bold mt-8 text-[12px] sm:text-[25px] lg:text-[30px]`}>
+      <div className={`flex-1 ${styles.flexStart} bg-primary justify-center flex-col relative font-poppins font-bold mt-8 text-[10px] xxs:text-[12px] sm:text-[25px] lg:text-[30px] mb-10`}>
         <h1 className="text-white mx-auto">
             REGISTER INTEREST AND SIGNUP TO RECEIVE UPDATES
         </h1>

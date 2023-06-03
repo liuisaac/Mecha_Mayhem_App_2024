@@ -12,7 +12,8 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        recursive: ["Recursive", "sans-serif"]
+        recursive: ["Recursive", "sans-serif"],
+        rubik: ["Rubik", "sans-serif"]
 
       },
     },

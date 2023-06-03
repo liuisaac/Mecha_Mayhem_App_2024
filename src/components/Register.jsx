@@ -5,7 +5,7 @@ import "../index.css";
 const Register = () => {
   return (
     <section id="register" className={'flex flex-col ${styles.paddingY}'}>
-      <div className={`flex-1 ${styles.flexStart} bg-primary justify-center flex-col relative font-poppins font-bold mt-8 text-[10px] xxs:text-[12px] sm:text-[25px] lg:text-[30px] mb-10`}>
+      <div className={`flex-1 ${styles.flexStart} bg-primary justify-center flex-col relative font-poppins font-bold mt-8 text-[10px] xxs:text-[12px] sm:text-[25px] lg:text-[30px] xxs:mb-2 mb-10`}>
         <h1 className="text-white mx-auto">
             REGISTER INTEREST AND SIGNUP TO RECEIVE UPDATES
         </h1>
@@ -26,8 +26,10 @@ const Register = () => {
           </div>
 
           {/* BUTTON */}
-          <div className="grid grid-cols-4 content-evenly items-center">
-            <button type="submit" className="col-start-2 col-span-2 text-white bg-gray-800 hover:bg-gray-700 focus:ring-2 focus:outline-none focus:ring-gray-200 font-md rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">
+          <div className="grid grid-cols-10 content-evenly items-center">
+            <button type="submit" className="col-start-5 col-span-2 
+            text-white bg-gray-800 hover:bg-gray-700 focus:ring-2 focus:outline-none focus:ring-gray-200 rounded-lg
+              xs:text-[20px] text-[8px] w-full sm:w-auto px-5 py-2.5 text-center">
               Submit
             </button>
           </div>

@@ -5,7 +5,7 @@ import "../gallery.css";
 const Links = () => {
   return (
     <section id="links" className={'flex flex-col relative z-5'}>
-      <div className="flex flex-row items-center justify-center my-5 text-white font-bold text-[40px]">
+      <div className="flex flex-row items-center justify-center my-5 text-white font-space_mono font-bold text-[40px]">
         QUICK LINKS
       </div>
       <div className='gallery lg:visible invisible'>        

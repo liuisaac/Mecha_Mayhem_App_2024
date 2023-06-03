@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Recursive:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -59,7 +60,7 @@
 .bg-rink-gradient {
   background: linear-gradient(
     157.81deg,
-    #fe4818 -43.27%,
+    #fc0e0e -43.27%,
     #fb3a35 -21.24%,
     #f93249 12.19%,
     #f82b56 29.82%,
@@ -67,6 +68,60 @@
     #f31d76 90.29%
   );
 }
+
+/* source: https://www.youtube.com/watch?v=yu0Cm4BqQv0 
+https://www.joshwcomeau.com/gradient-generator/*/
+
+@keyframes background-pan {
+  from {
+    backgrond-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
+.bg-rink-text {
+  animation: background-pan 1.5s linear infinite;
+  background: linear-gradient(
+    135deg,
+    hsl(0deg 100% 55%) 0%,
+    hsl(358deg 100% 56%) 4%,
+    hsl(356deg 100% 57%) 8%,
+    hsl(355deg 100% 57%) 12%,
+    hsl(353deg 100% 58%) 16%,
+    hsl(351deg 100% 58%) 20%,
+    hsl(349deg 100% 59%) 24%,
+    hsl(347deg 100% 60%) 28%,
+    hsl(345deg 100% 60%) 33%,
+    hsl(344deg 100% 61%) 38%,
+    hsl(342deg 100% 61%) 43%,
+    hsl(340deg 100% 62%) 49%,
+    hsl(342deg 100% 61%) 58%,
+    hsl(344deg 100% 60%) 66%,
+    hsl(345deg 100% 59%) 71%,
+    hsl(347deg 100% 58%) 75%,
+    hsl(349deg 100% 57%) 79%,
+    hsl(351deg 100% 55%) 83%,
+    hsl(353deg 100% 54%) 87%,
+    hsl(355deg 100% 53%) 90%,
+    hsl(356deg 100% 52%) 93%,
+    hsl(358deg 100% 51%) 97%,
+    hsl(0deg 100% 50%) 100%
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
+.bg-red-text {
+  background: #e20000d2;
+  background-size: 200%;
+  white-space: nowrap;
+}
+
 
 .bg-black-gradient {
   background: linear-gradient(

@@ -4,7 +4,7 @@ import Links from "./Links";
 import Sponsors from "./Sponsors";
 import Footer from "./Footer";
 import Register from "./Register";
-
+import About_Mecha from "./About_Mecha";
 
 export {
     Navbar,
@@ -12,5 +12,6 @@ export {
     Links,
     Sponsors,
     Footer,
-    Register
+    Register, 
+    About_Mecha
 };

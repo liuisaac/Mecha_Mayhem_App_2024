@@ -1,5 +1,5 @@
 import styles from "./style"
-import { Navbar, Hero, Links, Sponsors, Footer, Register} from "./components"
+import { Navbar, Hero, Links, Sponsors, Footer, Register, About_Mecha} from "./components"
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -18,6 +18,12 @@ const App = () => (
       <div className={'bg-gray-gradident ${styles.flexStart}'}>
         <div className={'$(styles.boxWidth}'}>
           <Register />
+        </div>
+      </div>
+
+      <div className={'bg-gray-gradident ${styles.flexStart}'}>
+        <div className={'$(styles.boxWidth}'}>
+          <About_Mecha />
         </div>
       </div>
 

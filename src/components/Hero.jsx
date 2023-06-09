@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="home" className={'flex flex-col ${styles.paddingY}'}>
       {/* Top Bar // No Stream*/}
-      <div className='flex flex-row  justify-center items-center
+      {/* <div className='flex flex-row  justify-center items-center
         tracking-wide font-poppins font-normal text-dimWhite leading-[30.8px] 
         py-[6px] px-4 bg-gray-gradient rounded-[10px] mb-2 whitespace-nowrap 
         w-full invisible xs:visible sm:h-[40px] h-[20px] text-[12px] sm:text-[18px]'>
@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
         <img src={leaf} className="w-[20px] h-[20px]"/>
         <span className="text-[#e05661] font-bold ml-8 invisible md:visible"> 02/14/2024 </span>
-      </div>
+      </div> */}
 
       {/* Top Bar // Stream*/}
       {/* <div className='flex flex-row items-center py-[6px] px-4 bg-rink-gradient invisible xxs:visible rounded-[10px] mb-2 sm:h-[40px] h-[20px] w-full'>

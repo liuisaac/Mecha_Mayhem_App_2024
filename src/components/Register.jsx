@@ -1,27 +1,35 @@
 import styles from '../style';
+import {triballsvg} from '../assets';
 import "../index.css";
 
 
 const Register = () => {
   return (
-    <section id="register" className={'flex flex-col ${styles.paddingY}'}>
-      <div className={`flex-1 ${styles.flexStart} bg-primary justify-center flex-col relative font-poppins font-bold mt-8 text-[10px] xxs:text-[12px] sm:text-[25px] lg:text-[30px] xxs:mb-2 mb-10`}>
-        <h1 className="text-white mx-auto">
-            REGISTER INTEREST AND SIGNUP TO RECEIVE UPDATES
+    <section id="register" className={'flex flex-col ${styles.paddingY} items-center justify-center'}>
+      <div className={`flex-1 ${styles.flexStart} bg-primary justify-center items-center 
+      flex-col relative font-poppins font-bold mt-8 text-[10px] xxs:text-[12px] sm:text-[25px] lg:text-[30px] xxs:mb-2 mb-10`}>
+        <h1 className="text-white mx-auto text-[60px]">
+            SIGN UP TO RECEIVE UPDATES
         </h1>
+        <p className="text-white font-semibold">
+          Recieve e-mail updates regarding this event by submitting the form below.
+        </p>
 
-        <form className="w-full mb-10">
-          <div className="grid gap-1 md:grid-cols-4 grid-cols-2 content-evenly items-center text-red-500 my-2 mx-5">
+
+
+
+
+        <form className="w-5/6 mb-10">
+          <div className="grid gap-1 grid-cols-2
+          content-evenly items-center justify-center my-2 w-full">
             {/* EMAIL */}
-            <div className="col-span-2 w-full flex flex-row justify-center">
-              <label>E-MAIL:</label>
-              <input type="text" className="ml-10 focus:border-blue-500 rounded-sm mb-4  text-black" placeholder="your_email@gmail.com"/><br></br>
+            <div className="col-start-1 col-span-1 w-full flex flex-row justify-center">
+              <input type="text" className="ml-10 focus:border-blue-500 rounded-sm mb-4  text-black" placeholder=" E-MAIL"/><br></br>
             </div>
 
             {/* TEAM NUMBER */}
-            <div className="col-span-2 w-full flex flex-row justify-center">
-              <label className="mr-10">TEAM NUMBER:</label>
-              <input type="text" className="rounded-sm mb-4  text-black" placeholder="#######"/>
+            <div className="col-start-2 col-span-1 flex flex-row justify-center">
+              <input type="text" className="rounded-sm mb-4  text-black" placeholder=" TEAM NUMBER"/>
             </div>
           </div>
 
@@ -34,6 +42,8 @@ const Register = () => {
             </button>
           </div>
         </form>
+
+        <img src={triballsvg} className="mx-auto"/>
 
       </div>
     </section>

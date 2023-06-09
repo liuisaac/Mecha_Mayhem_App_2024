@@ -14,18 +14,18 @@ import bull from '../assets/Vector/bull.svg';
 import text_1 from '../assets/Vector/text_1.svg';
 import text_2 from '../assets/Vector/text_2.svg';
 import banner from '../assets/Vector/banner.svg';
-
+import triballsvg from '../assets/Vector/balls.svg';
 //VIDEO
-import bg_vid from '../assets/Video/thinner.mp4'
+import bg_vid from '../assets/Video/thinner.mp4';
 
 //GALLERY
-import photography_slide from '../assets/Raster/Gallery/photography.png'
+import photography_slide from '../assets/Raster/Gallery/photography.png';
 
 //EXPORTS
 export {
     logo1, splatter, bhero, hero_footer,
 
-    menu, close, search, leaf,
+    menu, close, search, leaf, triballsvg,
     bull, text_1, text_2, banner,
 
     bg_vid,

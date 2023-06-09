@@ -13,7 +13,8 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         recursive: ["Recursive", "sans-serif"],
-        rubik: ["Rubik", "sans-serif"]
+        rubik: ["Rubik", "sans-serif"],
+        "courier-prime": ["Courier Prime", "sans-serif"]
 
       },
     },

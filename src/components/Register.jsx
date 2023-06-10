@@ -1,5 +1,5 @@
 import styles from '../style';
-import {play, triballsvg} from '../assets';
+import {triballsvg} from '../assets';
 import "../index.css";
 
 
@@ -7,11 +7,11 @@ const Register = () => {
   return (
     <section id="register" className={'flex flex-col ${styles.paddingY} items-center justify-center'}>
       <div className={`flex-1 ${styles.flexStart} bg-primary justify-center items-center 
-      flex-col relative font-poppins font-bold mt-8 text-[10px] xxs:text-[12px] sm:text-[25px] lg:text-[30px] xxs:mb-2 mb-10`}>
-        <h1 className="text-white mx-auto text-[60px]">
+      flex-col relative font-poppins mt-8 text-[10px] xxs:text-[12px] sm:text-[25px] lg:text-[30px] xxs:mb-2 mb-10`}>
+        <h1 className="text-white font-semibold mx-auto text-[60px]">
             SIGN UP TO RECEIVE UPDATES
         </h1>
-        <p className="text-white font-semibold">
+        <p className="text-white font-light">
           Receive e-mail updates regarding this event by submitting the form below.
         </p>
 

@@ -1,5 +1,5 @@
 import styles from '../style';
-import {triballsvg} from '../assets';
+import {play, triballsvg} from '../assets';
 import "../index.css";
 
 
@@ -12,7 +12,7 @@ const Register = () => {
             SIGN UP TO RECEIVE UPDATES
         </h1>
         <p className="text-white font-semibold">
-          Recieve e-mail updates regarding this event by submitting the form below.
+          Receive e-mail updates regarding this event by submitting the form below.
         </p>
 
 
@@ -20,17 +20,19 @@ const Register = () => {
 
 
         <form className="w-5/6 mb-10">
-          <div className="grid gap-1 grid-cols-2
+          <div className="grid gap-1 grid-cols-2 font-light text-[20px]
           content-evenly items-center justify-center my-2 w-full">
             {/* EMAIL */}
-            <div className="col-start-1 col-span-1 w-full flex flex-row justify-center">
-              <input type="text" className="ml-10 focus:border-blue-500 rounded-sm mb-4  text-black" placeholder=" E-MAIL"/><br></br>
+            <div className="col-start-1 col-span-1 w-full flex flex-row justify-center drop-shadow-[0_0px_8px_rgba(220,220,220,0.5)]">
+              <input type="text" className="rounded-sm h-10 w-full rounded-l-full
+              placeholder:text-gray-500 pl-[14px] text-black" placeholder=" E-mail"/><br></br>
             </div>
 
             {/* TEAM NUMBER */}
-            <div className="col-start-2 col-span-1 flex flex-row justify-center">
-              <input type="text" className="rounded-sm mb-4  text-black" placeholder=" TEAM NUMBER"/>
-            </div>
+            <form className="col-start-2 col-span-1 flex flex-row justify-center">
+              <input type="text" className="rounded-sm  text-black h-10 w-full rounded-r-full drop-shadow-[0_0px_8px_rgba(220,220,220,0.5)]
+              placeholder:text-gray-500 pl-[7px]" placeholder=" Team Number"/>
+            </form>
           </div>
 
           {/* BUTTON */}

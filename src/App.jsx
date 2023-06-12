@@ -21,13 +21,13 @@ const App = () => (
         </div>
       </div>
 
-      <div className={'bg-gray-gradident ${styles.flexStart}'}>
+      <div className={'bg-[#000000] ${styles.flexStart}'}>
         <div className={'$(styles.boxWidth}'}>
           <About_Mecha />
         </div>
       </div>
 
-      <div className={'bg-gray-gradient ${styles.flexStart}'}>
+      <div className={'bg-[#151515] ${styles.flexStart}'}>
         <div className={'$(styles.boxWidth}'}>
           <Links />
         </div>

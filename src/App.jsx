@@ -1,45 +1,28 @@
-import styles from "./style"
-import { Navbar, Hero, Links, Sponsors, Footer, Register, About_Mecha} from "./components"
+import { Navbar, Footer } from "./components"
+import { Route, Routes } from "react-router-dom"
+
+import Home from "./pages/Home";
+import Apparel from "./pages/Apparel";
+import Awards from "./pages/Awards";
+import Info from "./pages/Info";
+import Photography from "./pages/Photography";
+import Stream from "./pages/Stream";
+
+import './index.css' 
 
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
-      <div className={'${styles.paddingX}'}>
-        <div className={'$(styles.boxWidth}'}>
-          <Navbar />
-        </div>
-      </div>
-
-      <div className={'bg-gray-gradient ${styles.flexStart}'}>
-        <div className={'$(styles.boxWidth}'}>
-          <Hero />
-        </div>
-      </div>
-
-      <div className={'bg-gray-gradident ${styles.flexStart}'}>
-        <div className={'$(styles.boxWidth}'}>
-          <Register />
-        </div>
-      </div>
-
-      <div className={'bg-[#000000] ${styles.flexStart}'}>
-        <div className={'$(styles.boxWidth}'}>
-          <About_Mecha />
-        </div>
-      </div>
-
-      <div className={'bg-[#151515] ${styles.flexStart}'}>
-        <div className={'$(styles.boxWidth}'}>
-          <Links />
-        </div>
-      </div>
-
-      <div className={'bg-gray-gradient ${styles.paddingX} ${styles.flexStart}'}>
-        <div className={'$(styles.boxWidth}'}>
-          <Sponsors />
-          <Footer />
-        </div>
-      </div>
-  </div>
+  <>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/apparel" element={<Apparel />} />
+      <Route path="/awards" element={<Awards />} />
+      <Route path="/info" element={<Info />} />
+      <Route path="/photography" element={<Photography />} />
+      <Route path="/stream" element={<Stream />} />
+    </Routes>
+    <Footer />
+  </>
 );
 
 export default App;

@@ -13,7 +13,7 @@ const Links = () => {
   return (
     <section id="links" className="flex flex-col relative z-5">
       <div className="flex flex-row items-center justify-center my-5 text-white
-      font-semibold italic tracking-wide text-[60px] bg-repeat h-[200px] bg-[url('../src/assets/Vector/marquee.svg')] w-full">
+      font-semibold italic tracking-wide text-[60px] bg-repeat h-[200px] bg-[url('../src/assets/Vector/marquee.svg')] bg-contain w-full">
         QUICK LINKS
       </div>
       <div className='gallery w-full py-5 flex justify-center items-center lg:visible invisible'>        

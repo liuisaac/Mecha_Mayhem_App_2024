@@ -7,7 +7,7 @@ const Register = () => {
   return (
     <section id="register" className={'flex flex-col ${styles.paddingY} items-center justify-center'}>
       <div className={`flex-1 ${styles.flexStart} bg-primary justify-center items-center 
-      flex-col relative font-poppins mt-8 text-3xl xxs:mb-2 mb-10 w-full`}>
+      flex-col relative font-poppins mt-8 text-3xl xxs:mb-2 mb-10 w-full border-b-8 border-gray-800`}>
         <div>
           <img src={tower}/>
         </div>

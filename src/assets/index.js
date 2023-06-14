@@ -17,6 +17,8 @@ import banner from '../assets/Vector/banner.svg';
 import triballsvg from '../assets/Vector/balls.svg';
 import tower from '../assets/Vector/tower.svg';
 import marquee from '../assets/Vector/marquee.svg';
+
+import wrap from '../assets/Vector/burritowrap.svg';
 //VIDEO
 import bg_vid from '../assets/Video/thinner.mp4';
 
@@ -37,7 +39,7 @@ export {
 
     menu, close, search, leaf, triballsvg, tower,
     bull, text_1, text_2, banner, marquee, 
-    red, green, blue,
+    red, green, blue, wrap,
 
     bg_vid,
 

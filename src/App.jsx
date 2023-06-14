@@ -7,6 +7,7 @@ import Awards from "./pages/Awards";
 import Info from "./pages/Info";
 import Photography from "./pages/Photography";
 import Stream from "./pages/Stream";
+import PageNotFound from "./pages/PageNotFound";
 
 import './index.css' 
 
@@ -20,6 +21,7 @@ const App = () => (
       <Route path="/info" element={<Info />} />
       <Route path="/photography" element={<Photography />} />
       <Route path="/stream" element={<Stream />} />
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
     <Footer />
   </>

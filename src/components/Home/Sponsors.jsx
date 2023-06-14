@@ -1,5 +1,5 @@
 import React from 'react'
-import {sponsors} from "../assets"
+import {sponsors} from "../../assets"
 const Sponsors = () => {
   return (
     <div className="flex flex-col items-center justify-center">

@@ -1,14 +1,13 @@
-import styles from '../../style';
 // import "../index.css";
 // import "../gallery.css";
 import Card from './Card';
 
-import apparel from "../../assets/Raster/Gallery/apparel.png"
-import awards from "../../assets/Raster/Gallery/awards.png"
-import info from "../../assets/Raster/Gallery/info.png"
-import photography from "../../assets/Raster/Gallery/photography.png"
-import stream from "../../assets/Raster/Gallery/stream.png"
-import volunteer from "../../assets/Raster/Gallery/volunteer.png"
+import apparel from "../../../assets/Raster/Gallery/apparel.png"
+import awards from "../../../assets/Raster/Gallery/awards.png"
+import info from "../../../assets/Raster/Gallery/info.png"
+import photography from "../../../assets/Raster/Gallery/photography.png"
+import stream from "../../../assets/Raster/Gallery/stream.png"
+import volunteer from "../../../assets/Raster/Gallery/volunteer.png"
 
 const Links = () => {
   return (

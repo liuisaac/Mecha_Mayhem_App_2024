@@ -1,6 +1,6 @@
 import React from 'react'
-import { Navbar, Hero, Links, Sponsors, Footer, Register, About_Mecha } from "../components"
-
+import { Hero, Links, Sponsors, Register, About_Mecha } from "../components/Home"
+import { Navbar, Footer} from "../components/Global"
 const Home = () => {
     return (
         <div className="bg-primary w-full overflow-hidden">

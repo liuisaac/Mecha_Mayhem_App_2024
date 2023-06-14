@@ -1,7 +1,7 @@
 //import React from 'react'
 import { useState } from 'react'
-import { close, logo1, menu, bhero, search } from '../assets';
-import { navLinks } from '../constants'
+import { close, logo1, menu, search } from '../../assets';
+import { navLinks } from '../../constants'
 import { Link } from 'react-router-dom';
 
 

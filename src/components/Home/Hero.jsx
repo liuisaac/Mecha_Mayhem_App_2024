@@ -1,6 +1,7 @@
-import styles from '../style';
-import {leaf, bg_vid, splatter, bull, text_1, text_2, banner, hero_footer} from '../assets';
-import "../index.css";
+import styles from '../../style';
+import { bg_vid, banner, hero_footer } from '../../assets';
+import { leaf } from '../../assets'; //Dormant imports for Top notification bar DO NOT REMOVE LOL
+import "../../index.css";
 
 const Hero = () => {
   return (

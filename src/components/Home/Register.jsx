@@ -1,6 +1,6 @@
-import styles from '../style';
-import {tower, triballsvg} from '../assets';
-import "../index.css";
+import styles from '../../style';
+import {tower} from '../../assets';
+import "../../index.css";
 
 
 const Register = () => {

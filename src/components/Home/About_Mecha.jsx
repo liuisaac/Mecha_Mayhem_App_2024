@@ -1,6 +1,5 @@
-import styles from '../style';
-import {marquee, triballsvg} from '../assets';
-import "../index.css";
+import {triballsvg} from '../../assets';
+import "../../index.css";
 
 
 // 2 DIVISIONS

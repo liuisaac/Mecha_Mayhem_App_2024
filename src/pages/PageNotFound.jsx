@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
+import { main, bullc, streak, moanky, boat } from "../assets"
 
 //Doing random generation
 function getPage(number) {
@@ -12,8 +13,8 @@ function getPage(number) {
     case 2:
       return '../src/assets/Raster/Lost/boat.png';
 
-    case 3:
-      return '../src/assets/Raster/Lost/streak.png';
+    // case 3:
+    //   return '../src/assets/Raster/Lost/streak.png';
 
     default:
       return '../src/assets/Raster/Lost/main.png';
@@ -32,9 +33,11 @@ const PageNotFound = () => {
     let path = `/`; 
     navigate(path);
   }
+  
   return (
     <div className="bg-black">
-      <div className={`flex flex-row justify-center bg-[url('${getPage(getRandomInt(100))}')] bg-contain bg-no-repeat h-screen mb-20`}>
+      <div style={{'--image-url': `url(${getPage(getRandomInt(100))})`}} 
+      className={`flex flex-row justify-center bg-[image:var(--image-url)] bg-contain bg-no-repeat h-screen mb-20`}>
         <div className="grid grid-cols-3 grid-rows-6 content-evenly items-center w-full h-full">
           <button type="submit" className=" row-start-5 col-start-2 col-span-1 
           text-white bg-gray-800 hover:bg-gray-700 focus:ring-2

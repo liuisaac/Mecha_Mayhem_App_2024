@@ -4,8 +4,12 @@ import splatter from '../assets/Raster/splatter.png'
 import bhero from '../assets/Raster/hero_img.jpg';
 import hero_footer from '../assets/Raster/hero_footer.png';
 
-//RANDOM
+import boat from '../assets/Raster/Lost/boat.png';
+import bullc from '../assets/Raster/Lost/bull.png';
 import main from '../assets/Raster/Lost/main.png';
+import moanky from '../assets/Raster/Lost/moanky.png';
+import streak from '../assets/Raster/Lost/streak.png';
+
 
 //VECTOR
 import menu from '../assets/Vector/menu.svg';
@@ -43,7 +47,7 @@ export {
     menu, close, search, leaf, triballsvg, tower,
     bull, text_1, text_2, banner, marquee, 
     red, green, blue, wrap,
-    main, 
+    main, bullc, streak, moanky, boat,
 
     bg_vid,
 

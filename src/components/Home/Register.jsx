@@ -11,28 +11,36 @@ const Register = () => {
         <div>
           <img src={tower}/>
         </div>
-        <div className= "flex flex-col items-center justify-center absolute mt-10">
-          <h1 className="text-white font-semibold mx-auto text-[60px]">
+        <div className= {"flex flex-col items-center justify-center absolute sm:mt-10 xxs:mt-6 se:mt-8 mt-6"}>
+          <h1 className="text-white font-semibold mx-auto
+          xl:text-6xl lg:text-5xl sm:text-xl xxs:text-lg text-sm">
               SIGN UP TO RECEIVE UPDATES
           </h1>
-          <p className="text-white mt-8 mx-10 font-light">
+          <p className="text-white sm:mt-8 mx-10 font-light
+          xl:text-3xl md:text-2xl sm:text-lg text-sm sm:block hidden">
             Receive e-mail updates regarding this event by submitting the form below.
           </p>
 
-          <form className="w-5/6 mb-10 mt-16">
+          <form className="w-5/6 mb-10 mt-2 sm:mt-16">
             <div className="grid gap-1 grid-cols-2 font-light text-[20px]
             content-evenly items-center justify-center my-2 w-full">
               {/* EMAIL */}
               <div className="col-start-1 col-span-1 w-full flex flex-row justify-center drop-shadow-[0_0px_8px_rgba(220,220,220,0.5)]">
-                <input type="text" className="rounded-sm h-10 w-full rounded-l-full focus:outline-black
-                placeholder:text-gray-500 pl-[14px] text-black" placeholder=" E-mail"/><br></br>
+                <input 
+                  type="text" 
+                  className="rounded-sm sm:h-10 h-6 w-full rounded-l-full focus:outline-black
+                  placeholder:text-gray-500 pl-[14px] text-black" 
+                  placeholder=" E-mail"/>
               </div>
 
               {/* TEAM NUMBER */}
               <form className="col-start-2 col-span-1 flex flex-row justify-center">
-                <input type="text" className="rounded-sm  text-black h-10 w-full rounded-r-full focus:outline-black 
-                drop-shadow-[0_0px_8px_rgba(220,220,220,0.5)]
-                placeholder:text-gray-500 pl-[7px]" placeholder=" Team Number"/>
+                <input 
+                  type="text" 
+                  className="rounded-sm  text-black sm:h-10 h-6 w-full rounded-r-full focus:outline-black 
+                  drop-shadow-[0_0px_8px_rgba(220,220,220,0.5)]
+                  placeholder:text-gray-500 pl-[7px]" 
+                  placeholder=" Team Number"/>
               </form>
             </div>
 
@@ -41,7 +49,7 @@ const Register = () => {
               <button type="submit" className="col-start-5 col-span-2 
               text-white bg-gray-800 hover:bg-gray-700 focus:ring-2
               focus:outline-none focus:ring-gray-500 rounded-full h-8
-                xs:text-[20px] text-[8px] w-full sm:w-auto font-light text-center">
+                sm:text-xl text-sm w-full sm:w-auto font-light text-center">
                 Register
               </button>
             </div>

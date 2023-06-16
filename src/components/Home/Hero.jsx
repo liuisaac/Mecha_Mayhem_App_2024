@@ -5,7 +5,7 @@ import "../../index.css";
 
 const Hero = () => {
   return (
-    <section id="home" className={'flex flex-col ${styles.paddingY}'}>
+    <section id="home" className={'flex flex-col ${styles.paddingY} h-screen'}>
       {/* Top Bar // No Stream*/}
       {/* <div className='flex flex-row  justify-center items-center
         tracking-wide font-poppins font-normal text-dimWhite leading-[30.8px] 
@@ -40,7 +40,9 @@ const Hero = () => {
         </video>
         
         {/* center elements */}
-        <div className="flex-col justify-center items-align bg-primary bg-opacity-60 absolute w-5/6 py-1">
+        <div className="bg-opacity-60 bg-black w-full h-screen absolute sm:hidden block"></div>
+
+        <div className="flex-col justify-center items-align bg-primary sm:bg-opacity-60 bg-opacity-0 absolute sm:w-5/6 w-full py-1">
           {/* <img src={text_1} className="h-[150px] object-scale-down"/> */}
           {/* <img src={text_2}/> */}
           <img src={banner} className="object-cover mx-auto"/>

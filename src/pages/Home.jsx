@@ -21,17 +21,17 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className={'bg-[#151515] ${styles.flexStart}'}>
+            <div className={'bg-[#151515] ${styles.flexStart} sm:block hidden'}>
                 <div className={'$(styles.boxWidth}'}>
                     <Links />
                 </div>
             </div>
 
-            <div className={'bg-gray-gradient ${styles.paddingX} ${styles.flexStart}'}>
+            {/* <div className={'bg-gray-gradient ${styles.paddingX} ${styles.flexStart}'}>
                 <div className={'$(styles.boxWidth}'}>
                     <Sponsors />
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

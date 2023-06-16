@@ -1,6 +1,6 @@
 //import React from 'react'
 import { useState } from 'react'
-import { close, logo1, menu, search } from '../../assets';
+import { close, whitebull, menu, search } from '../../assets';
 import { navLinks } from '../../constants'
 import { Link } from 'react-router-dom';
 
@@ -10,15 +10,20 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-3 justify-between items-center navbar bg-black border-b-2 border-gray-700">
-      <img src={logo1} alt="Mecha" className="w-[182px] h-[50px] ml-10 mr-10" />
-      <ul className="list-none sm:flex hidden justify-center items-center flex-1">
+    <nav className="w-full flex py-3 justify-center items-center navbar bg-black border-b-2 border-gray-700 
+    ">
+      {/* LOGO */}
+      <img src={whitebull} alt="Mecha" className="h-6" />
+
+      {/* NAVBAR */}
+      <ul className="list-none sm:flex hidden justify-center items-center flex-row w-3/4">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
 
-            className={`font-poppins font-normal cursor-pointer tracking-widest text-[20px] ${active === nav.title ? "text-[#e05661] red-text-shadow" : "text-white"
-              } ${index === navLinks.length - 1 ? "mr-12" : "mr-28"}`}
+            className={`font-poppins font-normal hover:underline cursor-pointer tracking-widest text-sm
+              ${active === nav.title ? "text-[#e05661] red-text-shadow" : "text-white"} 
+              ${index === navLinks.length - 1 ? "mx-auto" : "mx-auto"}`}
             onClick={() => setActive(nav.title)}
           >
             <Link to={`/${nav.id}`}>{nav.title}</Link>
@@ -29,7 +34,9 @@ const Navbar = () => {
         )}
       </ul>
 
-      <img src={search} alt="Search" className="w-[35-px] h-[35px] mr-20 " />
+      <img src={search} alt="Search" className="h-[20px]" />
+
+
 
       {/* MOBILE*/}
       <div className="sm:hidden flex flex-1 justify-end items-center">

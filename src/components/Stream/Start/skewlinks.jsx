@@ -15,4 +15,4 @@ const skewlinks = ({ bgImage, name }) => {
   )
 }
 
-export default Card
+export default skewlinks

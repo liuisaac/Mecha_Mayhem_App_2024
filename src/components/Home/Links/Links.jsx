@@ -12,12 +12,14 @@ import volunteer from "../../../assets/Raster/Gallery/volunteer.png"
 const Links = () => {
   return (
     <section id="links" className="flex flex-col relative z-5">
-      <div className="flex flex-row items-center justify-center my-5 text-white
+      <div className="flex flex-col items-center justify-center my-5 text-white
       font-semibold italic tracking-wide text-[60px] bg-repeat h-[200px] bg-[url('../src/assets/Vector/marquee.svg')] bg-contain w-full">
         QUICK LINKS
+        <h1 className="font-light text-2xl lg:visible invisible">(HOVER TO EXPAND)</h1>
+        <h1 className="font-light text-4xl lg:invisible visible">(HOLD TO EXPAND)</h1>
       </div>
-      <div className='w-full py-5 flex justify-center items-center lg:visible invisible'>        
-        <div className="cards w-4/5 flex justify-center items-center">
+      <div className='w-full py-5 flex justify-center items-center'>        
+        <div className="w-4/5 flex justify-center items-center">
           <Card bgImage={photography} name={"PHOTOGRAPHY"} route={"photography"}/>
           <Card bgImage={awards} name={"AWARDS"} route={"awards"}/>
           <Card bgImage={stream} name={"STREAM"} route={"stream"}/>

@@ -10,12 +10,15 @@ const About_Mecha = () => {
     <div className = "flex flex-col items-center justify-center text-white xl:text-[60px] lg:text-[45px] md:text-[35px] sm:text-[25px] xs:text-[40px]">
         <div className = "flex flex-col items-center justify-center w-full -mt-8">
           <div className="w-full bg-[url('../src/assets/Vector/tesselatingwrap.svg')] bg-repeat bg-cover">
-            <div className={`flex flex-row justify-center items-align h-[300px] bg-repeat bg-contain bg-[url('../src/assets/Vector/marquee.svg')] w-full
-            border-y-8 border-t-8 border-gray-800 `}>
-              <h1 className = "font-bold mx-5 mt-12 invisible sm:visible text-[#C12135] text-[120px]">160 Teams</h1>
+            <div className={`flex flex-row justify-center items-align 
+            bg-repeat bg-contain bg-[url('../src/assets/Vector/marquee.svg')] 
+            w-full border-y-8 border-t-8 border-gray-800 
+            sm:py-20 xs:py-14 xxs:py-12`}>
+
+              <h1 className = "font-bold lg:text-[120px] md:text-9xl sm:text-8xl xs:text-6xl se:text-6xl text-2xl text-[#C12135]">160 Teams</h1>
             </div>
             
-            {/* Bro this is so freaking cursed💀💀💀 */}
+            {/* Bro this is so freaking cursed*/}
 
 
             <div><img src={triballsvg} className="h-[1000px] -my-[200px]" /></div>

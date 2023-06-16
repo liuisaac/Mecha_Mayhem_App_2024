@@ -24,6 +24,7 @@ import banner from '../assets/Vector/banner.svg';
 import triballsvg from '../assets/Vector/balls.svg';
 import tower from '../assets/Vector/tower.svg';
 import marquee from '../assets/Vector/marquee.svg';
+import whitebull from '../assets/Vector/whitebull_nobg.svg';
 
 import wrap from '../assets/Vector/burritowrap.svg';
 //VIDEO
@@ -42,7 +43,7 @@ import sponsors from '../assets/Raster/sponsors.png';
 
 //EXPORTS
 export {
-    logo1, splatter, bhero, hero_footer,
+    logo1, splatter, bhero, hero_footer, whitebull,
 
     menu, close, search, leaf, triballsvg, tower,
     bull, text_1, text_2, banner, marquee, 

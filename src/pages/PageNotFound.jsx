@@ -1,6 +1,5 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
-import { main, bullc, streak, moanky, boat } from "../assets"
 
 //Doing random generation
 function getPage(number) {

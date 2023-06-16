@@ -1,6 +1,5 @@
 import React from 'react'
 import { Hero, Links, Sponsors, Register, About_Mecha } from "../components/Home"
-import { Navbar, Footer} from "../components/Global"
 const Home = () => {
     return (
         <div className="bg-primary w-full overflow-hidden">
@@ -31,7 +30,6 @@ const Home = () => {
             <div className={'bg-gray-gradient ${styles.paddingX} ${styles.flexStart}'}>
                 <div className={'$(styles.boxWidth}'}>
                     <Sponsors />
-                    <Footer />
                 </div>
             </div>
         </div>

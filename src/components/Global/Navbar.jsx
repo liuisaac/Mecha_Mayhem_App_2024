@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-3 justify-between items-center navbar bg-black">
+    <nav className="w-full flex py-3 justify-between items-center navbar bg-black border-b-2 border-gray-700">
       <img src={logo1} alt="Mecha" className="w-[182px] h-[50px] ml-10 mr-10" />
       <ul className="list-none sm:flex hidden justify-center items-center flex-1">
         {navLinks.map((nav, index) => (

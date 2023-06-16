@@ -36,7 +36,7 @@ const PageNotFound = () => {
   return (
     <div className="bg-black">
       <div style={{'--image-url': `url(${getPage(getRandomInt(100))})`}} 
-      className={`flex flex-row justify-center bg-[image:var(--image-url)] bg-contain bg-no-repeat h-screen mb-20`}>
+      className={`flex flex-row justify-center bg-[image:var(--image-url)] bg-contain bg-no-repeat h-screen`}>
         <div className="grid grid-cols-3 grid-rows-6 content-evenly items-center w-full h-full">
           <button type="submit" className=" row-start-5 col-start-2 col-span-1 
           text-white bg-gray-800 hover:bg-gray-700 focus:ring-2

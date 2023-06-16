@@ -26,6 +26,11 @@ import tower from '../assets/Vector/tower.svg';
 import marquee from '../assets/Vector/marquee.svg';
 import whitebull from '../assets/Vector/whitebull_nobg.svg';
 
+import git from '../assets/Vector/footer/git_icon.svg';
+import gmail from '../assets/Vector/footer/gmail_icon.svg';
+import insta from '../assets/Vector/footer/insta_icon.svg';
+import yt from '../assets/Vector/footer/yt_icon.svg';
+
 import wrap from '../assets/Vector/burritowrap.svg';
 //VIDEO
 import bg_vid from '../assets/Video/thinner.mp4';
@@ -49,6 +54,7 @@ export {
     bull, text_1, text_2, banner, marquee, 
     red, green, blue, wrap,
     main, bullc, streak, moanky, boat,
+    git, gmail, insta, yt,
 
     bg_vid,
 

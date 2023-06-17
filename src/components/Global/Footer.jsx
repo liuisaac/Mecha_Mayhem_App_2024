@@ -24,7 +24,7 @@ const Footer = () => {
 
             <a href="https://www.youtube.com/channel/UCZoVzmcR2vB969t3WL_4ELA" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
               <img src={gmail} className="mr-2 h-3 hover:cursor-pointer"/>
-              <span className="hover:underline">@MechaMayhem2024@gmail.com</span>
+              <span className="hover:underline">MechaMayhem2024@gmail.com</span>
             </a>
 
             <a href="https://www.instagram.com/western_mechatronics/" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
@@ -33,18 +33,18 @@ const Footer = () => {
             </a>
 
 
-          <span className="opacity-20 text-[12px]">Images by myriammira on Freepik</span>
+          <span className="opacity-0 text-[12px]">===</span>
 
           <span className="font-semibold">Report an Issue</span>
           <a href="https://github.com/liuisaac/Mecha_Mayhem_App/issues" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
-              <img src={git} className="mr-2 h-3 hover:cursor-pointer"/>
-              <span className="hover:underline">https://github.com/liuisaac/Mecha_Mayhem_App/issues</span>
-            </a>
+            <img src={git} className="mr-2 h-3 hover:cursor-pointer"/>
+            <span className="hover:underline">https://github.com/liuisaac/Mecha_Mayhem_App/issues</span>
+          </a>
           
           <span className="opacity-30 text-[12px]">(shameless self-promo)</span>
           
           <span>@2021 - 2023 Western Mechatronics</span>
-          <span className="text-[10px]">info@westernmech.ca 587-888-7302 403-991-3277</span>
+          <span className="text-[10px]">info@westernmech.ca +1 587-888-7302 +1 403-991-3277</span>
           <span className="text-[10px]">820 10 St SW Calgary, AB T2P 2X1</span>
         </div>
 

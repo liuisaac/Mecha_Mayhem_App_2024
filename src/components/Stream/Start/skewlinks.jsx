@@ -1,18 +1,20 @@
 import React from 'react'
 
-const skewlinks = ({ bgImage, name }) => {
+const Skewlinks = ({ bgimage, name }) => {
 
   return (
-    <div className="group h-[500px] w-1/5 m-1 bg-red-400 rounded-xl bg-cover bg-center -skew-x-12
-    transition-all duration-300 ease-in-out overflow-hidden grid place-content-center
-    hover:w-[70%] hover:cursor-pointer hover:border-red-500 hover:border-4 opacity-60 hover:opacity-100"
-    style={{ backgroundImage: `url(${bgImage})` }}>
-        <h3 className='text-white bg-[#00000099] text-3xl font-light0 tracking-widest skew-x-12 p-2
-        opacity-0 group-hover:transition-opacity duration-300 group-hover:opacity-90'>
-            { name }
-        </h3>
+    <div className="group w-full skew-x-12 h-56 overflow-visible mx-2 bg-red-400 rounded-sm bg-cover bg-center 
+    clip-left transition-all duration-300 ease-in-out grid place-content-center hover:cursor-pointer 
+    border-x-[30px] border-y-2 border-red-500 hover:border-white opacity-80 hover:opacity-90 mt-12 hover:drop-shadow-[0_0px_20px_rgba(220,220,220,0.5)]"
+    style={{ backgroundImage: `url(${bgimage})` }}>
+        <div className="bg-[#00000099] rounded-lg">
+          <h3 className='text-white text-6xl font-light tracking-widest -skew-x-12 px-16 py-2
+          group-hover:transition-opacity duration-300 group-hover:opacity-90'>
+              { name }
+          </h3>
+        </div>
     </div>
   )
 }
 
-export default skewlinks
+export default Skewlinks

@@ -10,6 +10,9 @@ import main from '../assets/Raster/Lost/main.png';
 import moanky from '../assets/Raster/Lost/moanky.png';
 import streak from '../assets/Raster/Lost/streak.png';
 
+import p from '../assets/prairies.jpg';
+import r from '../assets/rock.jpg';
+
 
 //VECTOR
 import menu from '../assets/Vector/menu.svg';
@@ -56,7 +59,7 @@ export {
     main, bullc, streak, moanky, boat,
     git, gmail, insta, yt,
 
-    bg_vid,
+    bg_vid, p, r, 
 
     photography_slide, sponsors, 
 }

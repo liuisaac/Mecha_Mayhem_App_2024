@@ -5,10 +5,10 @@ import { useNavigate } from "react-router-dom";
 const Footer = () => {
   const navigate = useNavigate();
   return (
-    <section classname="bg-black">
+    <section className="bg-black">
       <div className="bg-black text-dimWhite text-sm font-poppins flex flex-col justify-center items-center">
         {/* Bar */}
-        <div className="w-3/4 h-[2px] mt-8 bg-dimWhite "></div>
+        <div className="w-2/3 h-[2px] mt-8 bg-dimWhite "></div>
 
         <div className="flex flex-row w-1/2 justify-center items-center mt-5">
           <img src={whitebull} className="h-4 opacity-70"/>
@@ -24,7 +24,7 @@ const Footer = () => {
 
             <a href="https://www.youtube.com/channel/UCZoVzmcR2vB969t3WL_4ELA" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
               <img src={gmail} className="mr-2 h-3 hover:cursor-pointer"/>
-              <span className="hover:underline">MechaMayhem2024@gmail.com</span>
+              <span className="hover:underline">info@mechamayhem.ca</span>
             </a>
 
             <a href="https://www.instagram.com/western_mechatronics/" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
 
         {/* Bar */}
-        <div className="w-3/4 h-[2px] my-8 bg-dimWhite "></div>
+        <div className="w-2/3 h-[2px] my-8 bg-dimWhite "></div>
 
       </div>
     </section>

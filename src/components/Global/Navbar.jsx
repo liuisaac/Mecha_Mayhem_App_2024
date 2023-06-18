@@ -1,5 +1,5 @@
 //import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { close, whitebull, menu, search } from '../../assets';
 import { navLinks } from '../../constants'
 import { Link, useLocation } from 'react-router-dom';
@@ -9,6 +9,10 @@ const Navbar = () => {
   const [active, setActive] = useState(String(location.pathname));
   const [toggle, setToggle] = useState(false);
 
+  useEffect(() => {
+    setActive(String(location.pathname))
+  })
+  
   return (
     <nav className="w-full flex py-3 justify-center items-center navbar bg-black border-b-2 border-gray-700 top-0 fixed z-50">
       {/* LOGO */}

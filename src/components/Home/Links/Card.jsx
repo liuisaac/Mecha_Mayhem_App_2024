@@ -7,6 +7,7 @@ const Card = ({ bgImage, name, route}) => {
     let path = `/${route}`; 
     navigate(path);
   }
+
   return (
     <div className="group h-[500px] w-1/5 m-1 bg-red-400 rounded-xl bg-cover bg-center -skew-x-12
     transition-all duration-300 ease-in-out overflow-hidden grid place-content-center

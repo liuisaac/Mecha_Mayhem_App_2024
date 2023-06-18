@@ -17,21 +17,22 @@ const Footer = () => {
 
         <div className="flex flex-col text-center justify-center items-center">
           <span className="mt-2 font-semibold">Contact Us!</span>
-            <a href="https://www.youtube.com/channel/UCZoVzmcR2vB969t3WL_4ELA" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
+          <div className="w-full flex md:flex-row flex-col items-center justify-center">
+            <a href="https://www.youtube.com/@westernmechatronics6723" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
               <img src={yt} className="mr-2 h-3 hover:cursor-pointer"/>
-              <span className="hover:underline">@210YRobotics</span>
+              <span className="hover:underline">@westernmechatronics</span>
             </a>
 
-            <a href="https://www.youtube.com/channel/UCZoVzmcR2vB969t3WL_4ELA" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
+            <a href="https://www.youtube.com/channel/UCZoVzmcR2vB969t3WL_4ELA" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mx-8 mt-2">
               <img src={gmail} className="mr-2 h-3 hover:cursor-pointer"/>
-              <span className="hover:underline">info@mechamayhem.ca</span>
+              <span className="hover:underline">Mecha@westernmech.ca email</span>
             </a>
 
             <a href="https://www.instagram.com/western_mechatronics/" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
               <img src={insta} className="mr-2 h-3 hover:cursor-pointer"/>
               <span className="hover:underline">@western_mechatronic</span>
             </a>
-
+          </div>
 
           <span className="opacity-0 text-[12px]">===</span>
 

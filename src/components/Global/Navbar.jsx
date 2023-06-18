@@ -2,18 +2,17 @@
 import { useState } from 'react'
 import { close, whitebull, menu, search } from '../../assets';
 import { navLinks } from '../../constants'
-import { Link } from 'react-router-dom';
-
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
-  const [active, setActive] = useState("Home");
+  const location = useLocation()
+  const [active, setActive] = useState(String(location.pathname));
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-3 justify-center items-center navbar bg-black border-b-2 border-gray-700 
-    ">
+    <nav className="w-full flex py-3 justify-center items-center navbar bg-black border-b-2 border-gray-700 top-0 fixed z-50">
       {/* LOGO */}
-      <img src={whitebull} alt="Mecha" className="h-6" />
+      <img src={whitebull} alt="Bull logo" className="h-6" />
 
       {/* NAVBAR */}
       <ul className="list-none sm:flex hidden justify-center items-center flex-row w-3/4">
@@ -22,11 +21,11 @@ const Navbar = () => {
             key={nav.id}
 
             className={`font-poppins font-normal hover:underline cursor-pointer tracking-widest text-sm
-              ${active === nav.title ? "text-[#e05661] red-text-shadow" : "text-white"} 
+              ${active === nav.path ? "text-[#e05661]" : "text-white"} 
               ${index === navLinks.length - 1 ? "mx-auto" : "mx-auto"}`}
-            onClick={() => setActive(nav.title)}
+            onClick={() => setActive(nav.path)}
           >
-            <Link to={`/${nav.id}`}>{nav.title}</Link>
+            <Link to={`${nav.id}`}>{nav.title}</Link>
             
           </li>
         )

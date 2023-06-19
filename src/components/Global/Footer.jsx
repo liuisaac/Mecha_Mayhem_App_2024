@@ -19,7 +19,7 @@ const Footer = () => {
           <span className="mt-2 font-semibold">Contact Us!</span>
           <div className="w-full flex md:flex-row flex-col items-center justify-center">
             <a href="https://www.youtube.com/@westernmechatronics6723" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
-              <img src={yt} className="mr-2 h-3 hover:cursor-pointer"/>
+              <img src={yt} className="mr-2 mt-1 h-3 hover:cursor-pointer"/>
               <span className="hover:underline">@westernmechatronics</span>
             </a>
 
@@ -29,7 +29,7 @@ const Footer = () => {
             </a>
 
             <a href="https://www.instagram.com/western_mechatronics/" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
-              <img src={insta} className="mr-2 h-3 hover:cursor-pointer"/>
+              <img src={insta} className="mr-2 mt-1 h-3 hover:cursor-pointer"/>
               <span className="hover:underline">@western_mechatronic</span>
             </a>
           </div>

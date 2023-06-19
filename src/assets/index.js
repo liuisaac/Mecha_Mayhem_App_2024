@@ -17,8 +17,14 @@ import r from '../assets/rock.jpg';
 //VECTOR
 import menu from '../assets/Vector/menu.svg';
 import close from '../assets/Vector/close.svg';
-import search from '../assets/Vector/search_btn.svg';
 import leaf from '../assets/Vector/Maple_Leaf.svg';
+
+import search from '../assets/Vector/search_btn.svg';
+
+import up_white from '../assets/Vector/up.svg';
+import up_red from '../assets/Vector/up_red.svg';
+import down_white from '../assets/Vector/down.svg';
+import down_red from '../assets/Vector/down_red.svg';
 
 import bull from '../assets/Vector/bull.svg';
 import text_1 from '../assets/Vector/text_1.svg';
@@ -54,6 +60,7 @@ export {
     logo1, splatter, bhero, hero_footer, whitebull,
 
     menu, close, search, leaf, triballsvg, tower,
+    up_white, up_red, down_white, down_red,
     bull, text_1, text_2, banner, marquee, 
     red, green, blue, wrap,
     main, bullc, streak, moanky, boat,

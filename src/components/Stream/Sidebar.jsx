@@ -2,12 +2,11 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div className = "flex flex-col items-center fixed top-0 left-0 h-full w-56 bg-[#000000] bg-opacity-80 rounded-r-sm">
+    <div className = "flex-col items-center absolute top-12 left-0 h-5/6 w-56 bg-[#080d17] border-r-4 border-gray-500 rounded-r-sm sm:flex hidden">
         <span>Mecha 2024</span>
-        <span>Prairies Division</span>
-        <span>Rockies Division</span>
 
         <span>Filters</span>
+        <span>Division</span>
         <span>Upcoming</span>
         <span>Live</span>
         <span>Ended</span>

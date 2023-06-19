@@ -42,7 +42,7 @@ const Footer = () => {
             <span className="hover:underline">https://github.com/liuisaac/Mecha_Mayhem_App/issues</span>
           </a>
           
-          <span className="opacity-30 text-[12px]">(shameless self-promo)</span>
+          <span className="opacity-30 text-[12px]">shameless self-promo, now go star the repo :)</span>
           
           <span>@2021 - 2023 Western Mechatronics</span>
           <span className="text-[10px]">info@westernmech.ca +1 587-888-7302 +1 403-991-3277</span>

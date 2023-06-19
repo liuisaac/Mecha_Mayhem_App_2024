@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   useEffect(() => {
-    setActive(String(location.pathname))
+    setActive(`/${String(location.pathname).split("/")[1]}`)
   })
   
   return (

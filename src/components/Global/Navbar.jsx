@@ -1,8 +1,9 @@
 //import React from 'react'
 import { useState, useEffect } from 'react'
-import { close, whitebull, redbull, menu, search, up_white, up_red, down_white, down_red, } from '../../assets';
+import { close, whitebull, redbull, menu, search, up_white, up_red, down_white, down_red } from '../../assets';
 import { navLinks } from '../../constants'
 import { Link, useLocation } from 'react-router-dom';
+import HoverIcon from './hoverIcon';
 
 const Navbar = () => {
   const location = useLocation()
@@ -15,8 +16,9 @@ const Navbar = () => {
   
   return (
     <nav className="w-full flex py-3 justify-center items-center navbar bg-black border-b-2 border-gray-700 top-0 fixed z-50">
+
       {/* LOGO */}
-      <div className={`w-[42.66px] h-6 hover:bg-[url(${redbull})] bg-[url(${whitebull})] bg-contain hover:cursor-pointer`} alt="Bull logo"></div>
+      <HoverIcon iconDefault={whitebull} iconHover={redbull} />
 
       {/* NAVBAR */}
       <ul className="list-none sm:flex hidden justify-center items-center flex-row w-3/4">
@@ -37,7 +39,8 @@ const Navbar = () => {
         )}
       </ul>
       {/* hover:bg-[url("${down_red}")]  */}
-      <div className={`w-5 h-5 hover:bg-[url("src/assets/Vector/down_red.svg")] bg-[url("src/assets/Vector/down.svg")] bg-contain hover:cursor-pointer`} alt="drop menu"></div>
+      <HoverIcon iconDefault={down_white} iconHover={down_red} />
+
 
 
       {/* MOBILE*/}

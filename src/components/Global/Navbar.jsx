@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { close, whitebull, redbull, menu, search, up_white, up_red, down_white, down_red } from '../../assets';
 import { navLinks } from '../../constants'
 import { Link, useLocation } from 'react-router-dom';
-import HoverIcon from './hoverIcon';
+import HoverIcon from './HoverIcon';
 
 const Navbar = () => {
   const location = useLocation()

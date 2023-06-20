@@ -1,6 +1,6 @@
 //import React from 'react'
 import { useState, useEffect } from 'react'
-import { close, whitebull, menu, search, up_white, up_red, down_white, down_red, } from '../../assets';
+import { close, whitebull, redbull, menu, search, up_white, up_red, down_white, down_red, } from '../../assets';
 import { navLinks } from '../../constants'
 import { Link, useLocation } from 'react-router-dom';
 
@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-3 justify-center items-center navbar bg-black border-b-2 border-gray-700 top-0 fixed z-50">
       {/* LOGO */}
-      <div className={`w-[42.66px] h-6 hover:bg-[url("src/assets/Vector/redbull_nobg.svg")] bg-[url("src/assets/Vector/whitebull_nobg.svg")] bg-contain hover:cursor-pointer`} alt="Bull logo"></div>
+      <div className={`w-[42.66px] h-6 hover:bg-[url(${redbull})] bg-[url(${whitebull})] bg-contain hover:cursor-pointer`} alt="Bull logo"></div>
 
       {/* NAVBAR */}
       <ul className="list-none sm:flex hidden justify-center items-center flex-row w-3/4">

@@ -9,11 +9,11 @@ const Stream = () => {
             <Selection />
         </div>
       </div>
-      <div className={'bg-gray-gradient ${styles.flexStart}'}>
+      {/* <div className={'bg-gray-gradient ${styles.flexStart}'}>
         <div className={'$(styles.boxWidth}'}>
             <Sidebar />
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

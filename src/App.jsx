@@ -16,7 +16,7 @@ import 'aos/dist/aos.css'
 
 
 Aos.init({
-  offset: 400
+  offset: 100
 });
 
 

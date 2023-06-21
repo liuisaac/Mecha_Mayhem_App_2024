@@ -11,6 +11,15 @@ import PageNotFound from "./pages/PageNotFound";
 
 import './index.css' 
 
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
+
+Aos.init({
+  offset: 400
+});
+
+
 const App = () => (
   <>
     <Navbar />

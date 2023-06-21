@@ -21,7 +21,7 @@ const Navbar = () => {
       <HoverIcon iconDefault={whitebull} iconHover={redbull} />
 
       {/* NAVBAR */}
-      <ul className="list-none sm:flex hidden justify-center items-center flex-row w-3/4">
+      <ul className="list-none sm:flex hidden justify-center items-center flex-row w-3/4" >
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -31,7 +31,7 @@ const Navbar = () => {
               ${index === navLinks.length - 1 ? "mx-auto" : "mx-auto"}`}
             onClick={() => setActive(nav.path)}
           >
-            <Link to={`${nav.id}`}>{nav.title}</Link>
+            <div data-aos="fade-right" data-aos-once="true" data-aos-delay={nav.stagger}><Link to={`${nav.id}`}>{nav.title}</Link></div>
             
           </li>
         )

@@ -41,18 +41,6 @@ import gmail from '../assets/Vector/footer/gmail_icon.svg';
 import insta from '../assets/Vector/footer/insta_icon.svg';
 import yt from '../assets/Vector/footer/yt_icon.svg';
 
-import P_2023 from '../assets/Vector/thumbnail/PRAIRIES_2023.svg';
-import P_2024 from '../assets/Vector/thumbnail/PRAIRIES_2024.svg';
-
-import P_2023_YT from '../assets/Vector/thumbnail/PRAIRIES_2023_YT.svg';
-import P_2024_YT from '../assets/Vector/thumbnail/PRAIRIES_2024_YT.svg';
-
-import R_2023_YT from '../assets/Vector/thumbnail/ROCKIES_2023_YT.svg';
-import R_2024_YT from '../assets/Vector/thumbnail/ROCKIES_2024_YT.svg';
-
-import R_2023 from '../assets/Vector/thumbnail/ROCKIES_2023.svg';
-import R_2024 from '../assets/Vector/thumbnail/ROCKIES_2024.svg';
-
 
 import wrap from '../assets/Vector/burritowrap.svg';
 //VIDEO
@@ -79,9 +67,6 @@ export {
     red, green, blue, wrap,
     main, bullc, streak, moanky, boat,
     git, gmail, insta, yt,
-    P_2023, P_2024, R_2023, R_2024,
-    P_2023_YT, P_2024_YT, R_2023_YT, R_2024_YT,
-
     bg_vid, p, r, 
 
     photography_slide, sponsors, 

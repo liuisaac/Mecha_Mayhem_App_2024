@@ -1,9 +1,7 @@
 import React from 'react'
 import { whitebull, git, gmail, insta, yt, } from '../../assets';
-import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
-  const navigate = useNavigate();
   return (
     <section className="bg-black">
       <div className="bg-black text-dimWhite text-sm font-poppins w-full">

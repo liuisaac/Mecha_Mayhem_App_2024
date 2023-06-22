@@ -3,6 +3,7 @@ import { bg_vid, banner, hero_footer } from '../../assets';
 import { leaf } from '../../assets'; //Dormant imports for Top notification bar DO NOT REMOVE LOL
 import "../../index.css";
 
+
 const Hero = () => {
   return (
     <section id="home" className={'flex flex-col ${styles.paddingY} h-screen'}>
@@ -36,7 +37,7 @@ const Hero = () => {
       <div className={`flex-1 ${styles.flexStart} items-center justify-center flex-col relative`}>        
         {/* video file */}
         <video autoPlay muted loop width="100%" height="100%" controls={false} className='flex-1 object-cover -z-1 '>
-          <source src={bg_vid} type="video/mp4"/>
+          <source src={bg_vid} type="video/mp4" contentEditable={false} className=''/>
         </video>
         
         {/* center elements */}

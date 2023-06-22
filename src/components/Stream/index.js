@@ -1,4 +1,4 @@
-import Selection from "./Start/Selection";
+import Selection from "./Selection";
 import Sidebar from "./Sidebar";
 
 export {

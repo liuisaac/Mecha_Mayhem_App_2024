@@ -70,7 +70,7 @@ import prairies_icon from '../assets/Vector/SideBarAssets/Prairies.svg';
 import rockies_icon from '../assets/Vector/SideBarAssets/Rockies.svg';
 import spinup from '../assets/Vector/SideBarAssets/SpinUp.svg';
 import trailers from '../assets/Vector/SideBarAssets/Trailers.svg';
-import upcoming from '../assets/Vector/SideBarAssets/upcoming.svg';
+import upcoming from '../assets/Vector/SideBarAssets/Upcoming.svg';
 //EXPORTS
 export {
     logo1, splatter, bhero, hero_footer, whitebull, redbull,

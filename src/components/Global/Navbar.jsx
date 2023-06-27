@@ -4,21 +4,28 @@ import { close, whitebull, redbull, menu, search, up_white, up_red, down_white, 
 import { navLinks } from '../../constants'
 import { Link, useLocation } from 'react-router-dom';
 import HoverIcon from './HoverIcon';
+import Dropnav from './Dropnav';
 
 const Navbar = () => {
   const location = useLocation()
   const [active, setActive] = useState(String(location.pathname));
   const [toggle, setToggle] = useState(false);
+  const [Dropdown, setDropdown] = useState(false);
 
   useEffect(() => {
     setActive(`/${String(location.pathname).split("/")[1]}`)
   })
   
   return (
-    <nav className="w-full flex py-3 justify-center items-center navbar bg-black border-b-2 border-gray-700 top-0 fixed z-50">
+    <div>
+      <nav className="w-full flex py-3 justify-center items-center navbar bg-black border-b-2 border-gray-700 top-0 fixed z-50">
 
       {/* LOGO */}
-      <HoverIcon iconDefault={whitebull} iconHover={redbull} />
+      <a  href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-23-1496.html#general-info" 
+          target="_blank" 
+          rel="noopener noreferrer">
+        <HoverIcon iconDefault={whitebull} iconHover={redbull} />
+      </a>
 
       {/* NAVBAR */}
       <ul className="list-none sm:flex hidden justify-center items-center flex-row w-3/4" >
@@ -39,8 +46,10 @@ const Navbar = () => {
         )}
       </ul>
       {/* hover:bg-[url("${down_red}")]  */}
-      <HoverIcon iconDefault={down_white} iconHover={down_red} />
-
+      <div onClick={() => setDropdown(!Dropdown)}>
+        <HoverIcon iconDefault={down_white} iconHover={down_red} scale={"0.9"} visible={Dropdown} alt={"Extended Nav Menu Up"} />
+        <HoverIcon iconDefault={up_red} iconHover={up_red} scale={"0.9"} visible={!Dropdown} alt={"Extended Nav Menu Down"} />
+      </div>
 
 
       {/* MOBILE*/}
@@ -53,9 +62,7 @@ const Navbar = () => {
         />
 
         <div
-          className={`${!toggle ? "hidden" : "flex"
-            } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
-        >
+          className={`${!toggle ? "hidden" : "flex"} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
@@ -70,7 +77,13 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </nav>
+
+      </nav>
+      <div className={`bg-black bg-opacity-90 flex justify-center items-start border-black border-2 h-1/3 top-0 fixed z-10 w-full transition ease-in-out duration-300 ${Dropdown?"-translate-y-full":"translate-y-0"}`}>
+        <Dropnav />
+      </div>
+    </div>
+
   )
 }
 

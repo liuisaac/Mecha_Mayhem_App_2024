@@ -6,7 +6,7 @@ const Stream = () => {
   return (
     <div className="bg-primary w-full text-white border-b-4 border-gray-500">
       <div className={`flex flex-row bg-[url(${wrap})] bg-repeat bg-cover h-full`}>
-        <div className="h-[1300px]]"><Sidebar /></div>
+        {/* <div className="h-[1300px]]"><Sidebar /></div> */}
         <Selection />
       </div>
     </div>

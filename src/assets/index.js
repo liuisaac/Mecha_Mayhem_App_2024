@@ -59,6 +59,8 @@ import photography_slide from '../assets/Raster/Gallery/photography.png';
 //SPONSORS
 import sponsors from '../assets/Raster/sponsors.png';
 
+//PAGE NOT FOUND
+import main_lost from '../assets/Raster/Lost/main.png';
 //EXPORTS
 export {
     logo1, splatter, bhero, hero_footer, whitebull, redbull,
@@ -68,7 +70,7 @@ export {
     bull, text_1, text_2, banner, marquee, 
     red, green, blue, wrap,
     main, bullc, streak, moanky, boat,
-    git, gmail, insta, yt,
+    git, gmail, insta, yt, main_lost,
     bg_vid, p, r, circle_arrow, circle_arrow_back,
 
     photography_slide, sponsors, 

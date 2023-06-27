@@ -1,5 +1,7 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
+import { main_lost } from '../assets';
+
 
 //Doing random generation
 function getPage(number) {
@@ -35,7 +37,7 @@ const PageNotFound = () => {
   
   return (
     <div className="bg-black">
-      <div style={{'--image-url': `url(${getPage(getRandomInt(100))})`}} 
+      <div style={{'--image-url': `url('${main_lost}')`}} 
       className={`flex flex-row justify-center bg-[image:var(--image-url)] bg-contain bg-no-repeat h-screen`}>
         <div className="grid grid-cols-3 grid-rows-6 content-evenly items-center w-full h-full">
           <button type="submit" className=" row-start-5 col-start-2 col-span-1 

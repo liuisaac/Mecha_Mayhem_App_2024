@@ -1,5 +1,5 @@
-import { React, useEffect, useState } from 'react'
-import { circle_arrow, circle_arrow_back, completed, live, overunder, prairies_icon, rockies_icon, spinup, trailers, upcoming } from '../../assets'
+import { React } from 'react'
+import { completed, live, overunder, prairies_icon, rockies_icon, spinup, trailers, upcoming } from '../../assets'
 
 const Sidebar = () => {
   return (
@@ -15,7 +15,7 @@ const Sidebar = () => {
 
         <div className="w-full h-[10%] py-2 flex flex-row justify-start items-center 
                         border-t-[1px] border-r-[1px] border-gray-800 bg-[#121218] hover:bg-black
-                        transition duration-100 ease-in-out group">
+                        transition duration-100 ease-in-out group hover:border-r-4">
           <div className="w-12 ml-6 opacity-60 transition duration-200 ease-in-out group-hover:opacity-100"><img src={rockies_icon} /></div>
           <div className="flex flex-col justify-start items-start">
             <span className='ml-8 text-2xl font-normal'>THE ROCKIES</span>
@@ -104,30 +104,13 @@ const Sidebar = () => {
                         transition duration-100 ease-in-out group">
           <div className="w-12 ml-6 opacity-60 transition duration-200 ease-in-out group-hover:opacity-100"><img src={rockies_icon} /></div>
           <div className="flex flex-col justify-start items-start">
-            <span className='ml-8 text-2xl font-normal'>210Y</span>
-            <span className='ml-8 -mt-2 tracking-wider'>#SHOUTOUT</span>
-          </div>
-        </div>
-        <div className="w-full h-[10%] py-2 flex flex-row justify-start items-center 
-                        border-t-[1px] border-r-[1px] border-gray-800 bg-[#121218] hover:bg-black
-                        transition duration-100 ease-in-out group">
-          <div className="w-12 ml-6 opacity-60 transition duration-200 ease-in-out group-hover:opacity-100"><img src={rockies_icon} /></div>
-          <div className="flex flex-col justify-start items-start">
-            <span className='ml-8 text-2xl font-normal'>3388H</span>
-            <span className='ml-8 -mt-2 tracking-wider'>ANGEL</span>
-          </div>
-        </div>
-        <div className="w-full h-[10%] py-2 flex flex-row justify-start items-center 
-                        border-t-[1px] border-r-[1px] border-gray-800 bg-[#121218] hover:bg-black
-                        transition duration-100 ease-in-out group">
-          <div className="w-12 ml-6 opacity-60 transition duration-200 ease-in-out group-hover:opacity-100"><img src={rockies_icon} /></div>
-          <div className="flex flex-col justify-start items-start">
-            <span className='ml-8 text-2xl font-normal'>4082C</span>
-            <span className='ml-8 -mt-2 tracking-wider'>FREEDOM SADIATORS</span>
+            <span className='ml-8 text-2xl font-normal'>COMING SOON</span>
+            <span className='ml-8 -mt-2 tracking-wider'>#MECHA2024</span>
           </div>
         </div>
 
-        <div className="w-full h-[8%] flex flex-row justify-start items-end border-t-[1px] border-r-[1px] border-gray-500"></div>
+
+        <div className="w-full h-[8%] flex flex-row justify-start items-end border-t-[1px] border-r-[1px] border-gray-800"></div>
       </div>
     </div>
   )

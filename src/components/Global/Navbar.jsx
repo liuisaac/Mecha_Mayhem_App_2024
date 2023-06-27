@@ -10,7 +10,7 @@ const Navbar = () => {
   const location = useLocation()
   const [active, setActive] = useState(String(location.pathname));
   const [toggle, setToggle] = useState(false);
-  const [Dropdown, setDropdown] = useState(false);
+  const [Dropdown, setDropdown] = useState(true);
 
   useEffect(() => {
     setActive(`/${String(location.pathname).split("/")[1]}`)
@@ -47,8 +47,8 @@ const Navbar = () => {
       </ul>
       {/* hover:bg-[url("${down_red}")]  */}
       <div onClick={() => setDropdown(!Dropdown)}>
-        <HoverIcon iconDefault={down_white} iconHover={down_red} scale={"0.9"} visible={Dropdown} alt={"Extended Nav Menu Up"} />
-        <HoverIcon iconDefault={up_red} iconHover={up_red} scale={"0.9"} visible={!Dropdown} alt={"Extended Nav Menu Down"} />
+        <HoverIcon iconDefault={down_white} iconHover={down_red} scale={"0.9"} visible={!Dropdown} alt={"Extended Nav Menu Up"} />
+        <HoverIcon iconDefault={up_red} iconHover={up_red} scale={"0.9"} visible={Dropdown} alt={"Extended Nav Menu Down"} />
       </div>
 
 

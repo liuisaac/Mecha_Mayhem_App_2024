@@ -9,7 +9,6 @@ const Dropnav = () => {
         <a className="underline">Section</a>
         <a className="underline">Section</a>
       </div>
-
     </div>
   )
 }

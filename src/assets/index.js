@@ -62,15 +62,7 @@ import sponsors from '../assets/Raster/sponsors.png';
 //PAGE NOT FOUND
 import main_lost from '../assets/Raster/Lost/main.png';
 
-//SideBar Constants
-import completed from '../assets/Vector/SideBarAssets/Completed.svg';
-import live from '../assets/Vector/SideBarAssets/Live.svg';
-import overunder from '../assets/Vector/SideBarAssets/OverUnder.svg';
-import prairies_icon from '../assets/Vector/SideBarAssets/Prairies.svg';
-import rockies_icon from '../assets/Vector/SideBarAssets/Rockies.svg';
-import spinup from '../assets/Vector/SideBarAssets/SpinUp.svg';
-import trailers from '../assets/Vector/SideBarAssets/Trailers.svg';
-import upcoming from '../assets/Vector/SideBarAssets/Upcoming.svg';
+
 //EXPORTS
 export {
     logo1, splatter, bhero, hero_footer, whitebull, redbull,
@@ -82,7 +74,6 @@ export {
     main, bullc, streak, moanky, boat,
     git, gmail, insta, yt, main_lost,
     bg_vid, p, r, circle_arrow, circle_arrow_back,
-    completed, live, overunder, prairies_icon, rockies_icon, spinup, trailers, upcoming,
 
     photography_slide, sponsors, 
 }

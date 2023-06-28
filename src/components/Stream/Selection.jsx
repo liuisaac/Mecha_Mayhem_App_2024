@@ -1,7 +1,7 @@
 //import {p, r, P_2023, P_2024, R_2023, R_2024, P_2023_YT, P_2024_YT, R_2023_YT, R_2024_YT} from '../../assets'
 import { useNavigate } from 'react-router-dom';
-import { streamLinks } from '../../constants'
 import { React, useEffect, useState } from 'react';
+import { streamLinks } from '../../constants/streamlinks';
 
 
 const Selection = () => {
@@ -29,7 +29,7 @@ const Selection = () => {
         <div className="flex justify-center items-center sm:mr-2 sm:m-0">
           <div className="grid gap-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 -mt-10 mb-5 w-[95%]">
             {streamLinks.map((stream) => (
-              <div className="scale-100 hover:scale-[1.05] transition-all cursor-pointer duration-100" 
+              <div className="scale-100 hover:scale-[1.05] transition-all cursor-pointer duration-100" key={stream.title} 
                 onClick={() => {setRoute(stream.path), isExternalRedirect(stream.redirect), setRedirect(true)}}>
 
                 <div className={`flex flex-col justify-start items-start bg-[#2b2b2b] 

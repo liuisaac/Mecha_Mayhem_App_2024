@@ -4,7 +4,7 @@ import P_2024 from '../constants/thumbnail/PRAIRIES_2024.svg';
 import R_2023 from '../constants/thumbnail/ROCKIES_2023.svg';
 import R_2024 from '../constants/thumbnail/ROCKIES_2024.svg';
 
-export const streamLinks = [
+export const streamlinks = [
   {
     title: "VRC Mecha Mayhem Signature Event - Prairies Division Day 1 - 2024 - LIVE SCORING",
     path: "/stream/prairies/d1-2024",

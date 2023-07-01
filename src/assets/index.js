@@ -61,7 +61,7 @@ import sponsors from '../assets/Raster/sponsors.png';
 
 //PAGE NOT FOUND
 import main_lost from '../assets/Raster/Lost/main.png';
-
+import incompletepage from '../assets/Raster/inprogress.png';
 
 //EXPORTS
 export {
@@ -75,5 +75,5 @@ export {
     git, gmail, insta, yt, main_lost,
     bg_vid, p, r, circle_arrow, circle_arrow_back,
 
-    photography_slide, sponsors, 
+    photography_slide, sponsors, incompletepage,
 }

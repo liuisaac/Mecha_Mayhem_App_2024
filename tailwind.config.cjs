@@ -17,6 +17,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         recursive: ["Recursive", "sans-serif"],
         rubik: ["Rubik", "sans-serif"],
+        "atkinson-hyperlegible": ["Atkinson Hyperlegible", "sans-serif"],
         "courier-prime": ["Courier Prime", "sans-serif"]
 
       },

@@ -3,7 +3,7 @@ import { whitebull, git, gmail, insta, yt, } from '../../assets';
 
 const Footer = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-black z-40">
       <div className="bg-black text-dimWhite text-sm font-poppins w-full">
         <div className="w-full flex flex-col justify-center items-center" data-aos="fade-up" data-aos-once="true">
           {/* Bar */}

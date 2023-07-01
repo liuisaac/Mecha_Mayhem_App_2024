@@ -33,8 +33,8 @@ const Navbar = () => {
           <li
             key={nav.id}
 
-            className={`font-poppins font-normal hover:underline cursor-pointer tracking-widest text-sm
-              ${active === nav.path ? "text-[#e05661]" : "text-white"} 
+            className={`font-poppins font-normal hover:text-[#e05661] transition-all cursor-pointer tracking-widest text-sm
+              ${active === nav.path ? "text-[#e05661]" : "text-white"}
               ${index === navLinks.length - 1 ? "mx-auto" : "mx-auto"}`}
             onClick={() => setActive(nav.path)}
           >

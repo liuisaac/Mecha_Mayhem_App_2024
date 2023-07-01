@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { React, useEffect, useState } from 'react';
 import { streamlinks } from '../../constants/streamlinks';
 import shareSection from '../../constants/sectionchecker';
+import { fullStreamBG } from '../../assets';
 
 
 const Selection = ({ filters }) => {
@@ -61,13 +62,13 @@ const Selection = ({ filters }) => {
 
         {/* Streams */}
         <div className="flex justify-center items-center sm:mr-2 sm:m-0">
-          <div className="flex flex-col -mt-10 mb-5 w-[95%] gap-2">
+          <div className="flex flex-col -mt-10 mb-5 w-[95%] gap-5">
             {streamlinks.map((stream, index) => (
               <div className={`transition-all cursor-pointer duration-100 ${filterLogic(stream.filters)?"visible":"hidden"}`} key={index} 
                 onClick={() => {setRoute(stream.path), isExternalRedirect(stream.redirect), setRedirect(true)}}>
 
-                <div className={`flex flex-col justify-center items-center bg-[#1a1a22] 
-                  rounded-sm overflow-hidden pb-4 h-48 opacity-70 hover:opacity-100`
+                <div className={`flex flex-col justify-center items-center bg-[#1a1a22] bg-[url("../src/assets/Vector/FullStreamBG.svg")] bg-cover bg-no-repeat
+                  rounded-sm overflow-hidden pb-4 h-48  drop-shadow-[0_2px_4px_rgba(255,0,0,0.4)] hover:drop-shadow-[0_0px_0px_rgba(0,0,0,0.4)] hover:opacity-70 opacity-100 transition duration-200 ease-in-out`
                 }>
                   <span className="text-center w-full text-xl font-bold -mb-6 mt-6">{stream.title}</span>
                   <div className="flex flex-row justify-center items-center text-8xl font-bold font-orbitron tracking-widest text-red-600">

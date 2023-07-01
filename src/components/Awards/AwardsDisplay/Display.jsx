@@ -30,7 +30,7 @@ const Display = ({ data }) => {
                     </tbody>
                 </table>
             ) : 
-            <h4 className='w-[60vw] text-white text-center text-xl '>Mecha Mayhem 2024 happens in Febuary! Stay tuned for the results! </h4>
+            <h4 className='w-[60vw] text-white text-center text-xl '>Mecha Mayhem 2024 happens in February! Stay tuned for the results! </h4>
         }
     </div>
   )

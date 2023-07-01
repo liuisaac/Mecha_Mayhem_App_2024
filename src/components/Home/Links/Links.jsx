@@ -20,10 +20,8 @@ const Links = () => {
   return (
     <section id="links" className="flex flex-col relative z-5">
       <div className="flex flex-col items-center justify-center my-5 text-white
-      font-semibold italic tracking-wide text-[60px] bg-repeat h-[200px] bg-[url('../src/assets/Vector/marquee.svg')] bg-contain w-full">
-        <span data-aos="fade-right">QUICK LINKS</span>
-        <h1 className="font-light text-2xl lg:visible invisible" data-aos="fade-right">(HOVER TO EXPAND)</h1>
-        <h1 className="font-light text-4xl lg:invisible visible">(HOLD TO EXPAND)</h1>
+      font-semibold italic tracking-wide text-7xl bg-repeat h-[200px] bg-[url('../src/assets/Vector/marquee.svg')] bg-contain w-full">
+        <span data-aos="fade-right"> QUICK LINKS </span>
       </div>
       <div className='w-full py-5 flex justify-center items-center'>        
         <div className="w-4/5 flex justify-center items-center">

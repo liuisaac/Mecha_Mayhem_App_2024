@@ -37,6 +37,7 @@ import whitebull from '../assets/Vector/whitebull_nobg.svg';
 import redbull from '../assets/Vector/redbull_nobg.svg';
 import circle_arrow from '../assets/Vector/circle_arrow.svg';
 import circle_arrow_back from '../assets/Vector/circle_arrow_back.svg';
+import fullStreamBG from "../assets/Vector/FullStreamBG.svg";
 
 import git from '../assets/Vector/footer/git_icon.svg';
 import gmail from '../assets/Vector/footer/gmail_icon.svg';
@@ -73,7 +74,7 @@ export {
     red, green, blue, wrap,
     main, bullc, streak, moanky, boat,
     git, gmail, insta, yt, main_lost,
-    bg_vid, p, r, circle_arrow, circle_arrow_back,
+    bg_vid, p, r, circle_arrow, circle_arrow_back, fullStreamBG,
 
     photography_slide, sponsors, incompletepage,
 }

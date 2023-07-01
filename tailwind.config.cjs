@@ -18,7 +18,8 @@ module.exports = {
         recursive: ["Recursive", "sans-serif"],
         rubik: ["Rubik", "sans-serif"],
         "atkinson-hyperlegible": ["Atkinson Hyperlegible", "sans-serif"],
-        "courier-prime": ["Courier Prime", "sans-serif"]
+        "courier-prime": ["Courier Prime", "sans-serif"],
+        orbitron: ["Orbitron", "sans-serif"]
 
       },
     },

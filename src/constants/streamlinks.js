@@ -1,92 +1,89 @@
-import P_2023 from '../constants/thumbnail/PRAIRIES_2023.svg';
-import P_2024 from '../constants/thumbnail/PRAIRIES_2024.svg';
-
-import R_2023 from '../constants/thumbnail/ROCKIES_2023.svg';
-import R_2024 from '../constants/thumbnail/ROCKIES_2024.svg';
+import game2023 from '../constants/SideBarAssets/SpinUp.svg';
+import game2024 from '../constants/SideBarAssets/OverUnder.svg';
 
 export const streamlinks = [
   {
-    title: "VRC Mecha Mayhem Signature Event - Prairies Division Day 1 - 2024 - LIVE SCORING",
-    path: "/stream/prairies/d1-2024",
-    redirect: false,
-    thumbnail: P_2024
-  },
-  {
-  title: "VRC Mecha Mayhem Signature Event - Prairies Division Day 2 - 2024 - LIVE SCORING",
-    path: "/stream/prairies/d2-2024",
-    redirect: false,
-    thumbnail: P_2024
-  },
-  {
-    title: "VRC Mecha Mayhem Signature Event - Rockies Division Day 1 - 2024 - LIVE SCORING",
-    path: "/stream/rockies/d1-2024",
-    redirect: false,
-    thumbnail: R_2024
-  },
-  {
-    title: "VRC Mecha Mayhem Signature Event - Rockies Division Day 2 - 2024 - LIVE SCORING",
-    path: "/stream/rockies/d1-2024",
-    redirect: false,
-    thumbnail: P_2024
-  },
-
-
-
-  {
-    title: "VRC Mecha Mayhem Signature Event - Prairies Division Day 1 - 2024 - YOUTUBE",
+    title: "Prairies Division Day 1",
+    subtitle: "COMPLETE STREAM",
+    year: ["20","24"],
     path: "https://www.youtube.com/watch?v=WIRK_pGdIdA",
     redirect: true,
-    thumbnail: P_2024
+    thumbnail: game2024,
+    filters: ["prairies", "2024", "upcoming"]
   },
   {
-  title: "VRC Mecha Mayhem Signature Event - Prairies Division Day 2 - 2024 - YOUTUBE",
-    path: "https://www.youtube.com/watch?v=WIRK_pGdIdA",
-    redirect: true,
-    thumbnail: P_2024
+  title: "Prairies Division Day 2",
+  subtitle: "COMPLETE STREAM",
+  year: ["20","24"],
+  path: "https://www.youtube.com/watch?v=WIRK_pGdIdA",
+  redirect: true,
+  thumbnail: game2024,
+  filters: ["prairies", "2024", "upcoming"]
   },
   {
-    title: "VRC Mecha Mayhem Signature Event - Rockies Division Day 1 - 2024 - YOUTUBE",
+    title: "Rockies Division Day 1",
+    subtitle: "COMPLETE STREAM",
+    year: ["20","24"],
     path: "https://www.youtube.com/watch?v=WIRK_pGdIdA",
     redirect: true,
-    thumbnail: R_2024
+    thumbnail: game2024,
+    filters: ["rockies", "2024", "upcoming"]
   },
   {
-    title: "VRC Mecha Mayhem Signature Event - Rockies Division Day 2 - 2024 - YOUTUBE",
+    title: "Rockies Division Day 2",
+    subtitle: "COMPLETE STREAM",
+    year: ["20","24"],
     path: "https://www.youtube.com/watch?v=WIRK_pGdIdA",
     redirect: true,
-    thumbnail: P_2024
+    thumbnail: game2024,
+    filters: ["rockies", "2024", "upcoming"]
   },
 
 
 
   {
-    title: "VRC Mecha Mayhem Signature Event - Prairies Division Day 1 - 2023 - YOUTUBE",
+    title: "Prairies Division Day 1",
+    subtitle: "COMPLETE STREAM",
+    year: ["20","23"],
     path: "https://www.youtube.com/watch?v=loDtdgFKv18",
     redirect: true,
-    thumbnail: P_2023
+    thumbnail: game2023,
+    filters: ["prairies", "2023", "completed"]
   },
   {
-    title: "VRC Mecha Mayhem Signature Event - Prairies Division Day 2 Part 1 - 2023 - YOUTUBE",
+    title: "Prairies Division Day 2 Part 1",
+    subtitle: "COMPLETE STREAM",
+    year: ["20","23"],
     path: "https://www.youtube.com/watch?v=A1I8daC98CI",
     redirect: true,
-    thumbnail: P_2023
+    thumbnail: game2023,
+    filters: ["prairies", "2023", "completed"]
   },
   {
-  title: "VRC Mecha Mayhem Signature Event - Prairies Division Day 2 Part 2 - 2023 - YOUTUBE",
+  title: "Prairies Division Day 2 Part 2",
+  subtitle: "COMPLETE STREAM",
+  year: ["20","23"],
     path: "https://www.youtube.com/watch?v=m6znSJRY1nI",
     redirect: true,
-    thumbnail: P_2023
+    thumbnail: game2023,
+    filters: ["prairies", "2023", "completed"]
   },
   {
-    title: "VRC Mecha Mayhem Signature Event - Rockies Division Day 1 - 2023 - YOUTUBE",
+    title: "Rockies Division Day 1",
+    subtitle: "COMPLETE STREAM",
+    year: ["20","23"],
     path: "https://www.youtube.com/watch?v=9fq5zeY0D8k",
     redirect: true,
-    thumbnail: R_2023
+    thumbnail: game2023,
+    filters: ["rockies", "2023", "completed"]
   },
   {
-    title: "VRC Mecha Mayhem Signature Event - Rockies Division Day 2 - 2023 - YOUTUBE",
+    title: "Rockies Division Day 2",
+    subtitle: "COMPLETE STREAM",
+    year: ["20","23"],
     path: "https://www.youtube.com/watch?v=xqMcIQazeeI",
     redirect: true,
-    thumbnail: P_2023
+    thumbnail: game2023,
+    filters: ["rockies", "2023", "completed"]
   },
 ]

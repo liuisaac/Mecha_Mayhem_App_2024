@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <section className="bg-black z-40">
       <div className="bg-black text-dimWhite text-sm font-poppins w-full">
-        <div className="w-full flex flex-col justify-center items-center" data-aos="fade-up" data-aos-once="true">
+        <div className="w-full flex flex-col justify-center items-center">
           {/* Bar */}
           <div className="w-2/3 h-[2px] mt-8 bg-dimWhite "></div>
 

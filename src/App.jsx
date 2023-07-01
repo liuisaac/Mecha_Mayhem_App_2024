@@ -6,7 +6,7 @@ import Apparel from "./pages/Apparel";
 import Awards from "./pages/Awards";
 import Info from "./pages/Info";
 import Photography from "./pages/Photography";
-import Stream from "./pages/Stream";
+import Stream  from "./pages/Stream";
 import PageNotFound from "./pages/PageNotFound";
 
 import './index.css' 

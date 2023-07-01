@@ -116,6 +116,43 @@ filter_key: "210Y",
 default_state: false,
 isBorder: false,
 shift: "0"
-},]
+},
+{
+title: "COMING SOON",
+subtitle: "#MECHA2024",
+icon: rockies_icon,
+filter_key: "210Y",
+default_state: false,
+isBorder: false,
+shift: "0"
+},
+{
+title: "COMING SOON",
+subtitle: "#MECHA2024",
+icon: rockies_icon,
+filter_key: "210Y",
+default_state: false,
+isBorder: false,
+shift: "0"
+},
+{
+title: "COMING SOON",
+subtitle: "#MECHA2024",
+icon: rockies_icon,
+filter_key: "210Y",
+default_state: false,
+isBorder: false,
+shift: "0"
+},
+{
+title: "COMING SOON",
+subtitle: "#MECHA2024",
+icon: rockies_icon,
+filter_key: "210Y",
+default_state: false,
+isBorder: false,
+shift: "0"
+},
+]
 
 export { filters };

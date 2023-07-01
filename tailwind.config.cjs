@@ -17,7 +17,8 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         recursive: ["Recursive", "sans-serif"],
         rubik: ["Rubik", "sans-serif"],
-        "courier-prime": ["Courier Prime", "sans-serif"]
+        "courier-prime": ["Courier Prime", "sans-serif"],
+        orbitron: ["Orbitron", "sans-serif"]
 
       },
     },

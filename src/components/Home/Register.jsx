@@ -1,6 +1,6 @@
 import styles from "../../style";
 import { tower } from "../../assets";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "../../index.css";
 
 import { initializeApp } from "firebase/app";
@@ -33,6 +33,13 @@ const Register = () => {
 	const [signedUp, setSignedUp] = useState(false);
 	const [formOpacity, setFormOpacity] = useState(1);
 
+  useEffect(() => {
+    // console.log()
+    setSignedUp(localStorage.getItem("mechaMayhemHasSignedUp") ? true : false);
+  }, [])
+  
+
+
 	const handleSubmit = () => {
 		push(ref(db), {
 			timestamp: Date().toString(),
@@ -41,6 +48,7 @@ const Register = () => {
 
     setFormOpacity(0);
     setTimeout(() => setSignedUp(true), 400);
+    localStorage.setItem("mechaMayhemHasSignedUp", true);
 	};
 
 	return (

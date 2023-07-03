@@ -8,6 +8,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getDatabase, ref, set, push } from "firebase/database";
 
 import { motion } from "framer-motion";
+import axios from "axios";
 
 const firebaseConfig = {
 	apiKey: "AIzaSyDeTL7UJ1Rt-tKw_SaIJ1k2ZWuI6pXF_tI",
@@ -33,22 +34,41 @@ const Register = () => {
 	const [signedUp, setSignedUp] = useState(false);
 	const [formOpacity, setFormOpacity] = useState(1);
 
-  useEffect(() => {
-    // console.log()
-    setSignedUp(localStorage.getItem("mechaMayhemHasSignedUp") ? true : false);
-  }, [])
+	useEffect(() => {
+		// console.log()
+		setSignedUp(localStorage.getItem("mechaMayhemHasSignedUp") ? true : false);
+	}, [])
   
 
 
 	const handleSubmit = () => {
-		push(ref(db), {
-			timestamp: Date().toString(),
-			...formState,
-		});
 
-    setFormOpacity(0);
-    setTimeout(() => setSignedUp(true), 400);
-    localStorage.setItem("mechaMayhemHasSignedUp", true);
+		// Lambda Endpoint, subsequent realtime firebase db
+		axios({
+			method: 'put',
+			url: 'https://eckvih8uab.execute-api.ca-central-1.amazonaws.com/v1',
+			data: {
+				"action": "sub",
+				"param": {
+					"email": formState.email,
+					"vex_team": formState.teamNumber
+				}
+			}
+		})
+		.then(() => {
+			// Push data to firebase as well
+			push(ref(db), {
+				timestamp: Date().toString(),
+				...formState,
+			});
+
+			setFormOpacity(0);
+			setTimeout(() => setSignedUp(true), 400);
+			localStorage.setItem("mechaMayhemHasSignedUp", true);
+		})
+		.catch(err => {
+			alert("Looks like there was an error with the form. Please try again later!");
+		});
 	};
 
 	return (

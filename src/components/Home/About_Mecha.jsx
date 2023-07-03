@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import {triballsvg} from '../../assets';
 import "../../index.css";
 
@@ -6,6 +7,7 @@ import "../../index.css";
 // 120 TOTAL TEAMS
 
 const About_Mecha = () => {
+  let navigate = useNavigate();
   return (
     <div className = "flex flex-col items-center justify-center text-white xl:text-[60px] lg:text-[45px] md:text-[35px] sm:text-[25px] xs:text-[40px]">
         <div className = "flex flex-col items-center justify-center w-full -mt-8">
@@ -23,11 +25,11 @@ const About_Mecha = () => {
             <div className={`flex flex-col justify-start items-center h-[65vh] bg-[url('../src/assets/Vector/balls.svg')] bg-contain bg-no-repeat bg-center my-16`}>
               <div className="font-bold flex flex-col items-align justify-center w-full
               drop-shadow-[0_2px_5px_rgba(0,0,0,1)] mt-[28vh]" data-aos="fade">
-                <div className="font-bold flex flex-row items-align justify-center z-10 drop-shadow-2xl">REGISTRATION CLOSES IN:  <span className="text-[#cb2c2c] ml-10">86 DAYS</span></div>
+                <div className="font-bold flex flex-row items-align justify-center z-10 drop-shadow-2xl">REGISTRATION OPENS ON:  <span className="text-[#cb2c2c] ml-10">OCT 13</span></div>
 
-                <div className="w-2/3 h-[100px] left-1/2 transform -translate-x-1/2 mt-2
-                absolute grid grid-cols-10 border-2 ">
-                  <div className="col-span-10 col-start-1 bg-white opacity-20"></div>
+                <div className="w-2/3 h-[10vh] left-1/2 transform -translate-x-1/2 mt-2
+                absolute grid grid-cols-10 border-2 bg-black bg-opacity-50 ">
+                  <div className="col-span-10 col-start-1 "></div>
                 </div>
               </div>  
 
@@ -35,7 +37,7 @@ const About_Mecha = () => {
                   <button type="submit" className="col-start-4 col-span-2 
                   text-white bg-black border-red-600 border-2 hover:bg-[#323136] focus:ring-2
                   focus:outline-none focus:ring-red-500 rounded-full h-8 drop-shadow-2xl transition duration-100 ease-in-out 
-                    sm:text-xl text-sm w-full sm:w-auto text-center tracking-wide font-semibold">
+                    sm:text-xl text-sm w-full sm:w-auto text-center tracking-wide font-semibold" onClick={() => {window.location.href = "https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-23-1496.html#general-info"}}>
                     Register for Mecha Mayhem
                   </button>
                 </div>       

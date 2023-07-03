@@ -1,5 +1,5 @@
 import styles from '../../style';
-import { bg_vid, banner, hero_footer } from '../../assets';
+import { bg_vid, banner, bannermobile, hero_footer } from '../../assets';
 import { leaf } from '../../assets'; //Dormant imports for Top notification bar DO NOT REMOVE LOL
 import "../../index.css";
 
@@ -34,7 +34,7 @@ const Hero = () => {
       </div> */}
 
       {/* VIDEO+HERO SECTION */}
-      <div className={`flex-1 ${styles.flexStart} items-center justify-center flex-col relative`}>        
+      <div className={`flex-1 ${styles.flexStart} items-center justify-center flex-col relative h-screen`}>        
         {/* video file */}
         <video autoPlay muted loop width="100%" height="100%" controls={false} className='flex-1 object-cover -z-1 '>
           <source src={bg_vid} type="video/mp4" contentEditable={false} className=''/>
@@ -46,7 +46,8 @@ const Hero = () => {
         <div className="flex-col justify-center items-align bg-primary sm:bg-opacity-60 bg-opacity-0 absolute sm:w-5/6 w-full py-1">
           {/* <img src={text_1} className="h-[150px] object-scale-down"/> */}
           {/* <img src={text_2}/> */}
-          <img src={banner} className="object-cover mx-auto"/>
+          <img src={banner} className="w-full object-cover mx-auto sm:visible invisible"/>
+          <img src={bannermobile} className="w-[60vh] -mt-56 object-cover mx-auto sm:hidden visible"/>
           <img src={hero_footer} className="mx-auto"/>
         </div>
 

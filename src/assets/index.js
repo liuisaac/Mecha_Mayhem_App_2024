@@ -30,6 +30,7 @@ import bull from '../assets/Vector/bull.svg';
 import text_1 from '../assets/Vector/text_1.svg';
 import text_2 from '../assets/Vector/text_2.svg';
 import banner from '../assets/Vector/banner.svg';
+import bannermobile from '../assets/Vector/banner_mobile.svg';
 import triballsvg from '../assets/Vector/balls.svg';
 import tower from '../assets/Vector/tower.svg';
 import marquee from '../assets/Vector/marquee.svg';
@@ -71,7 +72,7 @@ export {
     menu, close, search, leaf, triballsvg, tower,
     up_white, up_red, down_white, down_red,
     bull, text_1, text_2, banner, marquee, 
-    red, green, blue, wrap,
+    red, green, blue, wrap, bannermobile,
     main, bullc, streak, moanky, boat,
     git, gmail, insta, yt, main_lost,
     bg_vid, p, r, circle_arrow, circle_arrow_back, fullStreamBG,

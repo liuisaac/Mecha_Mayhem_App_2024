@@ -11,19 +11,19 @@ const Home = () => {
                      </p>
 
             </div>
-                <div className={'bg-gray-gradient ${styles.flexStart}'}>
+                <div className={'bg-gray-gradient ${styles.flexStart} sm:block hidden'}>
                     <div className={'$(styles.boxWidth}'}>
                         <Hero />
                     </div>
                 </div>
 
-                <div className={'bg-gray-gradident ${styles.flexStart}'}>
+                <div className={'bg-gray-gradident ${styles.flexStart} sm:block hidden'}>
                     <div className={'$(styles.boxWidth}'}>
                         <Register />
                     </div>
                 </div>
 
-                <div className={'bg-[#000000] ${styles.flexStart}'}>
+                <div className={'bg-[#000000] ${styles.flexStart} sm:block hidden'}>
                     <div className={'$(styles.boxWidth}'}>
                         <About_Mecha />
                     </div>

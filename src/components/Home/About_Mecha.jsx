@@ -22,13 +22,13 @@ const About_Mecha = () => {
             
             {/* Bro this is so freaking cursed*/}
 
-            <div className={`flex flex-col justify-start items-center h-[65vh] bg-[url('../src/assets/Vector/balls.svg')] bg-contain bg-no-repeat bg-center my-16`}>
+            <div className={`flex flex-col justify-start items-center sm:h-[65vh] h-[50vh] bg-[url('../src/assets/Vector/balls.svg')] bg-contain bg-no-repeat bg-center my-16`}>
               <div className="font-bold flex flex-col items-align justify-center w-full
-              drop-shadow-[0_2px_5px_rgba(0,0,0,1)] mt-[28vh]" data-aos="fade">
-                <div className="font-bold flex flex-row items-align justify-center z-10 drop-shadow-2xl">REGISTRATION OPENS ON:  <span className="text-[#cb2c2c] ml-10">OCT 13</span></div>
+              drop-shadow-[0_2px_5px_rgba(0,0,0,1)] sm:mt-[28vh] mt-[20vh]" data-aos="fade">
+                <div className="font-bold flex sm:flex-row flex-col items-align text-center justify-center z-10 drop-shadow-2xl bg-black sm:bg-opacity-0 bg-opacity-50 ">REGISTRATION OPENS ON:  <span className="text-[#cb2c2c] ml-10">OCT 13</span></div>
 
-                <div className="w-2/3 h-[10vh] left-1/2 transform -translate-x-1/2 mt-2
-                absolute grid grid-cols-10 border-2 bg-black bg-opacity-50 ">
+                <div className="w-2/3 sm:h-[10vh] h-[5vh] left-1/2 transform -translate-x-1/2 mt-2
+                absolute grid grid-cols-10 border-2 bg-black bg-opacity-50 sm:visible invisible">
                   <div className="col-span-10 col-start-1 "></div>
                 </div>
               </div>  
@@ -52,7 +52,7 @@ const About_Mecha = () => {
               <h1 className = "font-bold mx-5 mt-12 invisible sm:visible text-[120px] text-[#d23a3a] drop-shadow-[0_2px_5px_rgba(255,0,0,0.5)]" data-aos="zoom-in">4 Worlds Spots</h1>
             </div>
           
-            <div className="flex flex-col justify-center items-center -mt-6 py-8 text-4xl bg-[#151515] w-full border-t-8 border-[#232323]">
+            <div className="flex flex-col justify-center items-center -mt-6 py-8 sm:text-4xl text-xl bg-[#151515] w-full border-t-8 border-[#232323]">
               <div className="w-3/4 text-center leading-relaxed ">
                 <p data-aos="fade-left">
                   Mecha Mayhem brings together High School and Middle School teams from all around the world to compete against each other at the BMO Center in Calgary, AB, Canada.

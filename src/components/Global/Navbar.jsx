@@ -1,6 +1,6 @@
 //import React from 'react'
 import { useState, useEffect } from 'react'
-import { close, whitebull, redbull, menu, search, up_white, up_red, down_white, down_red } from '../../assets';
+import { close, whitebull, redbull, menu, up_red, down_white, down_red, leaf } from '../../assets';
 import { navLinks } from '../../constants'
 import { Link, useLocation } from 'react-router-dom';
 import HoverIcon from './HoverIcon';
@@ -24,7 +24,8 @@ const Navbar = () => {
       <a  href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-23-1496.html#general-info" 
           target="_blank" 
           rel="noopener noreferrer">
-        <HoverIcon iconDefault={whitebull} iconHover={redbull} />
+        <HoverIcon iconDefault={whitebull} iconHover={redbull} persistant={false} visible={true}/>
+        <div className="ml-[3vh] scale-125"><HoverIcon iconDefault={whitebull} iconHover={redbull} persistant={true} visible={false} scale={"1.2"}/></div>
       </a>
 
       {/* NAVBAR */}
@@ -45,10 +46,23 @@ const Navbar = () => {
 
         )}
       </ul>
+
+      <div className='flex-row fixed justify-center items-center
+        tracking-wide font-poppins font-normal text-dimWhite leading-[30.8px] 
+        py-[6px] px-4 bg-gray-gradient rounded-[10px] m-2 whitespace-nowrap 
+        w-full sm:h-[40px] h-[20px] text-[4px] xxs:text-[8px] xs:text-[12px] sm:text-[18px] sm:hidden flex z-20'>
+
+        <img src={leaf} className="w-[20px] h-[20px] xs:flex hidden"/>
+          <p className={`mx-2`}>
+            NOTE: THIS SITE WAS DESIGNED TO BE VIEWED ON DESKTOP
+          </p>
+        <img src={leaf} className="w-[20px] h-[20px] xs:flex hidden"/>
+      </div>
+
       {/* hover:bg-[url("${down_red}")]  */}
-      <div onClick={() => setDropdown(!Dropdown)}>
-        <HoverIcon iconDefault={down_white} iconHover={down_red} scale={"0.9"} visible={!Dropdown} alt={"Extended Nav Menu Up"} />
-        <HoverIcon iconDefault={up_red} iconHover={up_red} scale={"0.9"} visible={Dropdown} alt={"Extended Nav Menu Down"} />
+      <div className="" onClick={() => setDropdown(!Dropdown)}>
+        <HoverIcon iconDefault={down_white} iconHover={down_red} scale={"0.9"} visible={!Dropdown} alt={"Extended Nav Menu Up"} persistant={false}/>
+        <HoverIcon iconDefault={up_red} iconHover={up_red} scale={"0.9"} visible={Dropdown} alt={"Extended Nav Menu Down"} persistant={true}/>
       </div>
 
 

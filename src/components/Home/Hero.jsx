@@ -6,23 +6,8 @@ import "../../index.css";
 
 const Hero = () => {
   return (
-    <section id="home" className={'flex flex-col ${styles.paddingY} h-screen'}>
+    <section id="home" className={'flex flex-col ${styles.paddingY} h-screen w-screen'}>
       {/* Top Bar // No Stream*/}
-      {/* <div className='flex flex-row  justify-center items-center
-        tracking-wide font-poppins font-normal text-dimWhite leading-[30.8px] 
-        py-[6px] px-4 bg-gray-gradient rounded-[10px] mb-2 whitespace-nowrap 
-        w-full invisible xs:visible sm:h-[40px] h-[20px] text-[12px] sm:text-[18px]'>
-
-        <span className="text-[#e05661] font-bold mr-8 invisible md:visible">  CALGARY, AB </span>
-        <img src={leaf} className="w-[20px] h-[20px]"/>
-          <p className={`mx-2`}>
-            CANADA'S
-            <span className="text-[#e05661] font-bold">  LARGEST </span>
-            VEX ROBOTICS SIGNATURE EVENT
-          </p>
-        <img src={leaf} className="w-[20px] h-[20px]"/>
-        <span className="text-[#e05661] font-bold ml-8 invisible md:visible"> 02/14/2024 </span>
-      </div> */}
 
       {/* Top Bar // Stream*/}
       {/* <div className='flex flex-row items-center py-[6px] px-4 bg-rink-gradient invisible xxs:visible rounded-[10px] mb-2 sm:h-[40px] h-[20px] w-full'>
@@ -43,11 +28,11 @@ const Hero = () => {
         {/* center elements */}
         <div className="bg-opacity-60 bg-black w-full h-screen absolute sm:hidden block"></div>
 
-        <div className="flex-col justify-center items-align bg-primary sm:bg-opacity-60 bg-opacity-0 absolute sm:w-5/6 w-full py-1">
+        <div className="flex-col bg-primary sm:bg-opacity-60 bg-opacity-0 absolute sm:w-5/6 w-full py-1">
           {/* <img src={text_1} className="h-[150px] object-scale-down"/> */}
           {/* <img src={text_2}/> */}
-          <img src={banner} className="w-full object-cover mx-auto sm:visible invisible"/>
-          <img src={bannermobile} className="w-[60vh] -mt-56 object-cover mx-auto sm:hidden visible"/>
+          <img src={banner} className="w-full object-cover mx-auto sm:block hidden"/>
+          <img src={bannermobile} className="w-[60vh] mx-auto mt-12 sm:hidden visible"/>
           <img src={hero_footer} className="mx-auto"/>
         </div>
 

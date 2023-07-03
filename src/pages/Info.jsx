@@ -9,7 +9,6 @@ const Info = () => {
 
 			<div className="relative mt-10 ml-12 bg-black">
 				<h1 className="text-white text-[88px] leading-[1.2] mt-12 pt-8 font-poppins">
-					{/* TODO - Replace "LARGEST" with a hollow font */}
 					Canada's{" "}
 					<span className="text-black font-bold tracking-wide" style={{WebkitTextStroke: "3px red"}}>LARGEST</span>{" "}
 					<br /> Robotics Showdown.

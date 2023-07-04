@@ -95,7 +95,7 @@ shift: "0"
 },
 {
 title: "VEX SPIN UP",
-subtitle: "2024",
+subtitle: "2023",
 icon: spinup,
 filter_key: "2023",
 default_state: false,

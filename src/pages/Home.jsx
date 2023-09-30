@@ -29,7 +29,7 @@ const Home = () => {
                     </div>
                 </div>
 
-            <div className={'bg-gray-gradient ${styles.paddingX} ${styles.flexStart}'}>
+            <div className={'bg-black ${styles.paddingX} ${styles.flexStart}'}>
                 <div className={'$(styles.boxWidth}'}>
                     <Sponsors />
                 </div>

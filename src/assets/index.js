@@ -13,6 +13,9 @@ import streak from '../assets/Raster/Lost/streak.png';
 import p from '../assets/prairies.jpg';
 import r from '../assets/rock.jpg';
 
+import Encore from '../assets/Raster/Gold Sponsors/Encore.png';
+import Tourism from '../assets/Raster/Gold Sponsors/TCalgary.png';
+
 
 //VECTOR
 import menu from '../assets/Vector/menu.svg';
@@ -65,9 +68,15 @@ import sponsors from '../assets/Raster/sponsors.png';
 import main_lost from '../assets/Raster/Lost/main.png';
 import incompletepage from '../assets/Raster/inprogress.png';
 
+//MOBILE
+import hero_mb from '../assets/Vector/mobile/hero_mb.svg';
+import register_mb from '../assets/Vector/mobile/register_mb.svg';
+import countdown_mb from '../assets/Vector/mobile/countdown_mb.svg';
+
 //EXPORTS
 export {
     logo1, splatter, bhero, hero_footer, whitebull, redbull,
+    Encore, Tourism,
 
     menu, close, search, leaf, triballsvg, tower,
     up_white, up_red, down_white, down_red,
@@ -78,4 +87,6 @@ export {
     bg_vid, p, r, circle_arrow, circle_arrow_back, fullStreamBG,
 
     photography_slide, sponsors, incompletepage,
+
+    hero_mb, register_mb, countdown_mb,
 }

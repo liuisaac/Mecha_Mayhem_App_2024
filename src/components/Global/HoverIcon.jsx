@@ -8,14 +8,14 @@ const HoverIcon = ({ iconDefault, iconHover, scale, visible, alt, persistant }) 
       {hover ?
         <div style={{ backgroundImage: `url(${iconHover})` }} 
              onMouseLeave={() => setHover(false)} 
-             className={`w-[42.66px] scale-[${scale}] h-6 bg-contain bg-no-repeat hover:cursor-pointer 
+             className={`sm:w-[42.66px] w-[40px] scale-[${scale}] h-6 bg-contain bg-no-repeat hover:cursor-pointer 
              ${visible?"hidden":""} ${persistant?"sm:hidden block":"sm:block hidden"}`} 
              alt={alt}>
         </div>
         :
         <div style={{ backgroundImage: `url(${iconDefault})` }} 
              onMouseEnter={() => setHover(true)} 
-             className={`w-[42.66px] scale-[${scale}] h-6 bg-contain bg-no-repeat hover:cursor-pointer 
+             className={`sm:w-[42.66px] w-[40px] scale-[${scale}] h-6 bg-contain bg-no-repeat hover:cursor-pointer 
              ${visible?"hidden":""} ${persistant?"sm:hidden block":"sm:block hidden"}`} 
              alt={alt}>
         </div>

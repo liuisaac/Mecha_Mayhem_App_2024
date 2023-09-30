@@ -1,12 +1,12 @@
 import styles from '../../style';
-import { bg_vid, banner, bannermobile, hero_footer } from '../../assets';
+import { bg_vid, banner, bannermobile, hero_footer, hero_mb } from '../../assets';
 import { leaf } from '../../assets'; //Dormant imports for Top notification bar DO NOT REMOVE LOL
 import "../../index.css";
 
 
 const Hero = () => {
   return (
-    <section id="home" className={'flex flex-col ${styles.paddingY} h-screen w-screen'}>
+    <section id="home" className={'flex flex-col ${styles.paddingY} h-[85vh] w-screen'}>
       {/* Top Bar // No Stream*/}
 
       {/* Top Bar // Stream*/}
@@ -26,13 +26,13 @@ const Hero = () => {
         </video>
         
         {/* center elements */}
-        <div className="bg-opacity-60 bg-black w-full h-screen absolute sm:hidden block"></div>
+        <div className="bg-opacity-60 bg-black w-full h-full absolute sm:hidden block p-5"></div>
 
         <div className="flex-col bg-primary sm:bg-opacity-60 bg-opacity-0 absolute sm:w-5/6 w-full py-1">
           {/* <img src={text_1} className="h-[150px] object-scale-down"/> */}
           {/* <img src={text_2}/> */}
           <img src={banner} className="w-full object-cover mx-auto sm:block hidden"/>
-          <img src={bannermobile} className="w-[60vh] mx-auto mt-12 sm:hidden visible"/>
+          <img src={hero_mb} className="h-[70vh] mx-auto mt-[1vh] sm:hidden visible object-cover"/>
           <img src={hero_footer} className="mx-auto"/>
         </div>
 

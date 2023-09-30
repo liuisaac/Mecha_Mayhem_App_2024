@@ -5,6 +5,7 @@ import { navLinks } from '../../constants'
 import { Link, useLocation } from 'react-router-dom';
 import HoverIcon from './HoverIcon';
 import Dropnav from './Dropnav';
+import { delay } from 'framer-motion';
 
 const Navbar = () => {
   const location = useLocation()
@@ -15,10 +16,15 @@ const Navbar = () => {
   useEffect(() => {
     setActive(`/${String(location.pathname).split("/")[1]}`)
   })
+
+  function hamburger_button (title) {
+    setActive(title);
+    setToggle(!toggle)
+  }
   
   return (
     <div>
-      <nav className="w-full flex py-3 justify-center items-center navbar bg-black border-b-2 border-gray-700 top-0 fixed z-50">
+      <nav className="w-screen flex py-3 justify-center items-center navbar bg-black border-b-2 border-gray-700 top-0 fixed z-50">
 
       {/* LOGO */}
       <a  href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-23-1496.html#general-info" 
@@ -50,7 +56,7 @@ const Navbar = () => {
       <div className='flex-row fixed justify-center items-center
         tracking-wide font-poppins font-normal text-dimWhite leading-[30.8px] 
         py-[6px] px-4 bg-gray-gradient rounded-[10px] m-2 whitespace-nowrap 
-        w-full sm:h-[40px] h-[20px] text-[4px] xxs:text-[8px] xs:text-[12px] sm:text-[18px] sm:hidden flex z-20'>
+        w-screen sm:h-[40px] h-[20px] text-[4px] xxs:text-[8px] xs:text-[12px] sm:text-[18px] sm:hidden flex z-30'>
 
         <img src={leaf} className="w-[20px] h-[20px] xs:flex hidden"/>
           <p className={`mx-2`}>
@@ -67,33 +73,33 @@ const Navbar = () => {
 
 
       {/* MOBILE*/}
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      <div className="sm:hidden flex flex-1 justify-end items-center cursor-pointer">
         <img
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[28px] h-[28px] object-contain mr-10"
+          className="w-[24px] h-[24px] object-contain mr-8 z-30"
           onClick={() => setToggle(!toggle)}
         />
+      </div>
 
-        <div
-          className={`${!toggle ? "hidden" : "flex"} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+      </nav>
+      <div
+          className={`${!toggle ? "-translate-y-full" : "translate-y-0"} py-6 bg-black bg-opacity-50 backdrop-blur-[6px]
+           fixed z-20 left-0 w-screen h-full sidebar transition ease-in-out duration-300 top-12 border-b-8 border-gray-700 overflow-x-hidden`}>
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${active === nav.title ? "text-white" : "text-dimWhite"
                   } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                onClick={() => setActive(nav.title)}
+                onClick={() => hamburger_button(nav.title)}
               >
-                <Link to={`/${nav.id}`}>{nav.title}</Link>
+                <Link to={`${nav.id}`}>{nav.title}</Link>
               </li>
             ))}
           </ul>
         </div>
-      </div>
-
-      </nav>
-      <div className={`bg-black bg-opacity-90 flex justify-center items-start border-black border-2 h-1/3 top-0 fixed z-10 w-full transition ease-in-out duration-300 ${Dropdown?"-translate-y-full":"translate-y-0"}`}>
+      <div className={`bg-black bg-opacity-90 flex justify-center items-start border-black border-2 h-1/3 top-0 fixed z-20 w-full transition ease-in-out duration-300 ${Dropdown?"-translate-y-full":"translate-y-0"}`}>
         <Dropnav />
       </div>
     </div>

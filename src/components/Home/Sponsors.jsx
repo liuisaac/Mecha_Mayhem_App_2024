@@ -21,7 +21,7 @@ const Sponsors = () => {
                 <img src={Encore} className="w-1/3" />
             </div>
             <img src={TCEnergy} className="w-1/3 mt-16" />
-            <div className="mb-[25vh]" />
+            <div className="mb-[5vh]" />
         </div>
     );
 };

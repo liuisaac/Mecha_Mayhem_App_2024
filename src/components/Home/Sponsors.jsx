@@ -1,5 +1,5 @@
 import React from "react";
-import { Encore, Tourism, sponsors } from "../../assets";
+import { Encore, Tourism, TCEnergy } from "../../assets";
 const Sponsors = () => {
     return (
         <div className="flex flex-col items-center justify-center">
@@ -20,6 +20,7 @@ const Sponsors = () => {
                 <img src={Tourism} className="w-1/3" />
                 <img src={Encore} className="w-1/3" />
             </div>
+            <img src={TCEnergy} className="w-1/3 mt-16" />
             <div className="mb-[25vh]" />
         </div>
     );

@@ -15,6 +15,7 @@ import r from '../assets/rock.jpg';
 
 import Encore from '../assets/Raster/Gold Sponsors/Encore.png';
 import Tourism from '../assets/Raster/Gold Sponsors/TCalgary.png';
+import TCEnergy from '../assets/Raster/Gold Sponsors/TCEnergy.png';
 
 
 //VECTOR
@@ -76,7 +77,7 @@ import countdown_mb from '../assets/Vector/mobile/countdown_mb.svg';
 //EXPORTS
 export {
     logo1, splatter, bhero, hero_footer, whitebull, redbull,
-    Encore, Tourism,
+    Encore, Tourism, TCEnergy,
 
     menu, close, search, leaf, triballsvg, tower,
     up_white, up_red, down_white, down_red,

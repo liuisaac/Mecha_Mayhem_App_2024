@@ -90,9 +90,9 @@ const About_Mecha = () => {
               <h1 className = "font-bold mx-5 mt-12 invisible sm:visible text-[100px] md:text-[120px] text-[#d23a3a] drop-shadow-[0_2px_5px_rgba(255,0,0,0.5)]" data-aos="zoom-in">4 Worlds Spots</h1>
             </div>
           
-            <div className="flex flex-col justify-center items-center -mt-6 py-8 sm:text-4xl text-xl bg-[#151515] w-full border-t-8 border-[#232323]">
+            <div className="flex flex-col justify-center items-center -mt-6 py-8 sm:text-4xl text-xl bg-[#000000] w-full border-8 border-[#232323]">
               <div className="w-3/4 text-center leading-relaxed ">
-                <h1 className="italic underline font-bold text-3xl text-red-500 sm:hidden flex flex-row items-center justify-center">What is Mecha Mayhem?</h1>
+                <h1 className="font-bold text-3xl text-red-500 drop-shadow-[0_2px_5px_rgba(255,0,0,0.5)] sm:hidden flex flex-row items-center justify-center">What is Mecha Mayhem?</h1>
                 <p className="mt-5" data-aos="fade-left">
                   Mecha Mayhem is a VEX Signature Event that brings together High School and Middle School teams from all around the world to compete against each other at the BMO Center in Calgary, AB, Canada.
                 </p>

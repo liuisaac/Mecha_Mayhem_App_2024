@@ -4,7 +4,7 @@ const Sponsors = () => {
     return (
         <div className="flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center">
-                <span className="text-white font-poppins font-bold lg:text-6xl sm:text-4xl text-3xl mt-10 overflow-hidden hidden sm:flex">
+                <span className="text-white font-poppins font-bold lg:text-6xl sm:text-4xl text-3xl mt-16 my-5 overflow-hidden hidden sm:flex">
                     THANKS TO OUR EVENT SPONSORS!
                 </span>
                 <div className="flex-col justify-center items-center sm:hidden flex mt-10">

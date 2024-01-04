@@ -23,22 +23,23 @@ const About_Mecha = () => {
             {/* Bro this is so freaking cursed*/}
 
             <div 
-              className={`flex flex-col justify-start items-center h-[65vh] sm:bg-[url('../src/assets/Vector/balls.svg')]
-        bg-[url('../src/assets/Vector/mobile/countdown_mb.svg')] bg-contain bg-no-repeat bg-center sm:my-16 my-5`}>
+              className={`flex flex-col justify-start items-center h-screen sm:bg-[url('../src/assets/Vector/balls.svg')]
+        bg-[url('../src/assets/Vector/mobile/countdown_mb.svg')] bg-contain bg-no-repeat bg-center sm:my-16 my-5 bg-opacity-30`}>
               <div 
-                className="font-bold flex flex-col items-align justify-center sm:w-full w-11/12
+                className="font-bold flex flex-col items-align justify-center w-full h-screen 
         drop-shadow-[0_2px_5px_rgba(0,0,0,1)] sm:mt-[28vh] mt-[10vh]" 
                 data-aos="fade">
 
                 <div 
                   className="font-bold flex sm:flex-row flex-col items-align text-center justify-center mx-auto
-        z-10 drop-shadow-2xl bg-black sm:bg-opacity-60 bg-opacity-50 text-3xl md:text-4xl lg:text-5xl sm:h-[8vh] h-[50vh] backdrop-blur-[10px] sm:rounded-none rounded-xl border-2 sm:w-3/4 w-full">
+        z-10 drop-shadow-2xl bg-black sm:bg-opacity-60 bg-opacity-50 text-3xl md:text-4xl lg:text-5xl sm:h-[8vh] h-[50vh] backdrop-blur-[10px] sm:rounded-none rounded-xl sm:w-3/4 w-full">
                   <span className='mt-2'>REGISTRATION IS OPEN UNTIL:  </span>
 
                   <span 
                     className="sm:text-red-500 text-[#EF4444] sm:ml-10 drop-shadow-[0_2px_5px_rgba(255,150,150,0.5)] mt-2">
                     JAN 12
                   </span>
+
                   <div className="sm:hidden flex flex-row justify-center items-center w-full" data-aos="fade-zoom-in" data-aos-duration="1000" data-aos-delay-300>
                     <button 
                     type="submit" 
@@ -56,26 +57,26 @@ const About_Mecha = () => {
 
                 </div>  
 
-                <div className="sm:grid hidden grid-cols-8 content-evenly items-center justify-center w-full sm:mt-[10vh]" data-aos="fade-zoom-in" data-aos-duration="1000" data-aos-delay-300>
+                <div className="sm:grid hidden grid-cols-8 content-evenly items-center justify-center w-full sm:-mt-5 mt-[10vh]" data-aos="fade-zoom-in" data-aos-duration="1000" data-aos-delay-300>
                   <button 
                   type="submit" 
-                  className="col-start-4 col-span-2 text-white bg-black border-red-600 border-2 hover:bg-white focus:ring-2
-        focus:outline-none focus:ring-red-500 rounded-full h-8 drop-shadow-2xl transition duration-500 ease-in-out 
+                  className="col-start-3 col-span-4 text-white bg-black border-red-600 border-2 hover:bg-white focus:ring-2
+        focus:outline-none focus:ring-red-50 h-16 drop-shadow-2xl transition duration-500 ease-in-out 
         sm:text-xl text-sm sm:w-5/6 text-center tracking-widest font-semibold hover:border-red-400 hover:text-black font-poppins w-full mx-auto" 
                   onClick={() => 
                   {
                     window.location.href = "https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-23-1496.html#general-info"
                   }}>
-                    Register to COMPETE!
+                    Register as a COMPETETITOR!
                   </button>
                   <button 
                   type="submit" 
-                  className="col-start-4 col-span-2 text-white bg-black border-gray-300 border-2 hover:bg-white focus:ring-2
-                  focus:outline-none focus:ring-red-500 rounded-full h-8 drop-shadow-2xl transition duration-500 ease-in-out 
+                  className="col-start-3 col-span-4 text-white bg-black border-gray-300 border-2 hover:bg-white focus:ring-2
+                  focus:outline-none focus:ring-red-500 h-16 drop-shadow-2xl transition duration-500 ease-in-out 
                   sm:text-xl text-sm w-full sm:w-auto text-center tracking-widest font-semibold hover:border-red-600 hover:text-black mt-10 font-poppins" 
                   onClick={() => 
                   {
-                    window.location.href = "https://www.eventbrite.com/e/mecha-mayhem-2024-tickets-743335164487"
+                    window.location.href = "https://www.zeffy.com/en-CA/ticketing/8d60dbf4-af3d-4bc3-822a-b4475da29ff9"
                   }}>
                     Register as a SPECTATOR (free!)
                   </button>

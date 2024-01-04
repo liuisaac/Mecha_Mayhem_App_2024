@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="flex flex-col text-center justify-center items-center">
             <span className="mt-2 font-semibold">Contact Us!</span>
             <div className="w-full flex md:flex-row flex-col items-center justify-center">
-              <a href="https://www.youtube.com/@westernmechatronics6723" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
+              <a href="https://www.mechamayhem.ca/" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center mt-2">
                 <img src={yt} className="mr-2 mt-1 h-3 hover:cursor-pointer"/>
                 <span className="hover:underline">@westernmechatronics</span>
               </a>

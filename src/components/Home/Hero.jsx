@@ -28,11 +28,12 @@ const Hero = () => {
         {/* center elements */}
         <div className="bg-opacity-60 bg-black w-full h-full absolute sm:hidden block p-5"></div>
 
-        <div className="flex-col bg-primary sm:bg-opacity-60 bg-opacity-0 absolute sm:w-5/6 w-full py-1">
+        <div className="flex flex-col justify-center items-center bg-primary sm:bg-opacity-60 bg-opacity-0 absolute sm:w-5/6 w-full py-1 backdrop-blur-sm h-4/5">
           {/* <img src={text_1} className="h-[150px] object-scale-down"/> */}
           {/* <img src={text_2}/> */}
           <img src={banner} className="w-full object-cover mx-auto sm:block hidden"/>
           <img src={hero_mb} className="h-[70vh] mx-auto mt-[1vh] sm:hidden visible object-cover"/>
+          <div className=' text-gray-400 font-orbitron tracking-widest -mt-10 text-2xl sm:flex hidden'>02/02/24 - 02/04/24</div>
           <img src={hero_footer} className="mx-auto"/>
         </div>
 

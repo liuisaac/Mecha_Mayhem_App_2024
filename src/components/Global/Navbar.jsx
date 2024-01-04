@@ -54,13 +54,13 @@ const Navbar = () => {
       </ul>
 
       <div className='flex-row fixed justify-center items-center
-        tracking-wide font-poppins font-normal text-dimWhite leading-[30.8px] 
+        tracking-widest font-orbitron font-normal text-dimWhite leading-[30.8px] 
         py-[6px] px-4 bg-gray-gradient rounded-[10px] m-2 whitespace-nowrap 
-        w-screen sm:h-[40px] h-[20px] text-[4px] xxs:text-[8px] xs:text-[12px] sm:text-[18px] sm:hidden flex z-30'>
+        w-screen sm:h-[80px] h-[40px] text-[8px] xxs:text-[16px] xs:text-[24px] sm:text-[36px] sm:hidden flex z-30'>
 
         <img src={leaf} className="w-[20px] h-[20px] xs:flex hidden"/>
           <p className={`mx-2`}>
-            NOTE: THIS SITE WAS DESIGNED TO BE VIEWED ON DESKTOP
+            MECHA MAYHEM 2024
           </p>
         <img src={leaf} className="w-[20px] h-[20px] xs:flex hidden"/>
       </div>
@@ -84,13 +84,13 @@ const Navbar = () => {
 
       </nav>
       <div
-          className={`${!toggle ? "-translate-y-full" : "translate-y-0"} py-6 bg-black bg-opacity-50 backdrop-blur-[6px]
+          className={`${!toggle ? "-translate-y-full" : "translate-y-0"} py-6 bg-black bg-opacity-70 backdrop-blur-[6px]
            fixed z-20 left-0 w-screen h-full sidebar transition ease-in-out duration-300 top-12 border-b-8 border-gray-700 overflow-x-hidden`}>
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${active === nav.title ? "text-white" : "text-dimWhite"
+                className={`font-poppins font-medium cursor-pointer text-[16px] ml-5 ${active === nav.title ? "text-white" : "text-dimWhite"
                   } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => hamburger_button(nav.title)}
               >

@@ -1,5 +1,20 @@
 import React from "react";
-import { Encore, Tourism, TCEnergy, GES } from "../../assets";
+import {
+    Encore,
+    Tourism,
+    TCEnergy,
+    GES,
+    Avantech,
+    Eaton,
+    Fotile,
+    Alphadigital,
+    ANDMIR,
+    Calgary3D,
+    GongCha,
+    UofA,
+    IDesign,
+    TelusSpark,
+} from "../../assets";
 const Sponsors = () => {
     return (
         <div className="flex flex-col items-center justify-center">
@@ -35,13 +50,50 @@ const Sponsors = () => {
             <img src={TCEnergy} className="sm:w-1/3 w-3/4 mt-16" />
             <div className="mb-[5vh]" />
             <span
-                    className="text-[#ecf8fb] font-poppins font-semibold italic tracking-[5px] 
+                className="text-[#ecf8fb] font-poppins font-semibold italic tracking-[5px] 
             sm:text-5xl text-3xl mt-20 drop-shadow-[0_0px_5px_rgba(150,150,255,0.95)]"
-                >
-                    SILVER SPONSORS
-                </span>
-                <div className="bg-[#ecf8fb] w-4/5 h-1 rounded-full drop-shadow-[0_0px_5px_rgba(150,150,255,0.95)] mt-5" />
+            >
+                SILVER SPONSORS
+            </span>
+            <div className="bg-[#ecf8fb] w-4/5 h-1 rounded-full drop-shadow-[0_0px_5px_rgba(150,150,255,0.95)] mt-5" />
+            <div className="w-full flex flex-row justify-center items-center gap-5">
                 <img src={GES} className="w-1/4 mt-6" />
+                <img src={Avantech} className="w-1/4 mt-6" />
+            </div>
+            <div className="w-full flex flex-row justify-center items-center gap-5">
+                <img src={Eaton} className="w-1/4 mt-6" />
+                <img src={Fotile} className="w-1/4 mt-6" />
+            </div>
+
+            {/* Alphadigital, ANDMIR, Calgary3D, GongCha, UofA, 
+    IDesign, TelusSpark, */}
+            <span
+                className="text-[#f4a159] font-poppins font-semibold italic tracking-[5px] 
+            sm:text-5xl text-3xl mt-20 drop-shadow-[0_0px_5px_rgba(400,150,100,0.95)]"
+            >
+                BRONZE SPONSORS
+            </span>
+            <div className="bg-[#f4a159] w-4/5 h-1 rounded-full drop-shadow-[0_0px_5px_rgba(400,150,100,0.95)] mt-5" />
+
+            <div className="w-full flex flex-row justify-center items-center gap-5">
+                <img src={Alphadigital} className="w-1/4 mt-6" />
+                <img src={ANDMIR} className="w-1/4 mt-6" />
+            </div>
+            <div className="w-full flex flex-row justify-center items-center gap-5 mt-3">
+                <img src={Calgary3D} className="w-1/4 mt-6" />
+                <img src={GongCha} className="w-1/4 mt-6" />
+                <img src={UofA} className="w-1/4 mt-6" />
+            </div>
+
+            <span
+                className="text-[#f45959] font-poppins font-semibold italic tracking-[5px] 
+            sm:text-5xl text-3xl mt-20 drop-shadow-[0_0px_5px_rgba(400,50,100,0.95)]"
+            >
+                SUPPORTERS
+            </span>
+            <div className="bg-[#f45959] w-4/5 h-1 rounded-full drop-shadow-[0_0px_5px_rgba(400,50,100,0.95)] mt-5" />
+            <img src={IDesign} className="w-1/4 mt-6" />
+            <img src={TelusSpark} className="w-1/4 mt-6" />
         </div>
     );
 };

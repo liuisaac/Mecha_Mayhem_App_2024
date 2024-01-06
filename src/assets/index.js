@@ -13,13 +13,24 @@ import streak from '../assets/Raster/Lost/streak.png';
 import p from '../assets/prairies.jpg';
 import r from '../assets/rock.jpg';
 
-import Encore from '../assets/Raster/Gold Sponsors/Encore.png';
-import Tourism from '../assets/Raster/Gold Sponsors/TCalgary.png';
-import TCEnergy from '../assets/Raster/Gold Sponsors/TCEnergy.png';
+import Encore from '../assets/Raster/Sponsors/Gold Sponsors/Encore.png';
+import Tourism from '../assets/Raster/Sponsors/Gold Sponsors/TCalgary.png';
+import TCEnergy from '../assets/Raster/Sponsors/Gold Sponsors/TCEnergy.png';
 
-import GES from '../assets/Raster/Silver Sponsors/GES.png';
+import GES from '../assets/Raster/Sponsors/Silver Sponsors/GES.png';
+import Avantech from '../assets/Raster/Sponsors/Silver Sponsors/Avantech (Silver) .jpg';
+import Eaton from '../assets/Raster/Sponsors/Silver Sponsors/Eaton (Silver).jpg';
+import Fotile from '../assets/Raster/Sponsors/Silver Sponsors/Fotile (Silver).png';
+
+import Alphadigital from '../assets/Raster/Sponsors/Bronze Sponsors/Alphadigital (Bronze).png';
+import ANDMIR from '../assets/Raster/Sponsors/Bronze Sponsors/ANDMIR (Bronze).png';
+import Calgary3D from '../assets/Raster/Sponsors/Bronze Sponsors/Calgary3D (Bronze).png';
+import GongCha from '../assets/Raster/Sponsors/Bronze Sponsors/Gong Cha (Bronze).png';
+import UofA from '../assets/Raster/Sponsors/Bronze Sponsors/UofA (Bronze).png';
 
 
+import IDesign from '../assets/Raster/Sponsors/Supporter/IDesign (Support).png';
+import TelusSpark from '../assets/Raster/Sponsors/Supporter/Telus Spark (Supporter).png';
 //VECTOR
 import menu from '../assets/Vector/menu.svg';
 import close from '../assets/Vector/close.svg';
@@ -79,8 +90,11 @@ import countdown_mb from '../assets/Vector/mobile/countdown_mb.svg';
 //EXPORTS
 export {
     logo1, splatter, bhero, hero_footer, whitebull, redbull,
+
     Encore, Tourism, TCEnergy,
-    GES,
+    GES, Avantech, Eaton, Fotile,
+    Alphadigital, ANDMIR, Calgary3D, GongCha, UofA, 
+    IDesign, TelusSpark,
 
     menu, close, search, leaf, triballsvg, tower,
     up_white, up_red, down_white, down_red,

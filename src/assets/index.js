@@ -32,7 +32,7 @@ import UofA from '../assets/Raster/Sponsors/Bronze Sponsors/UofA (Bronze).png';
 import IDesign from '../assets/Raster/Sponsors/Supporter/IDesign (Support).png';
 import TelusSpark from '../assets/Raster/Sponsors/Supporter/Telus Spark (Supporter).png';
 
-import Sponsor from '../assets/Raster/Sponsors/sponsors.png';
+import Sponsor from '../assets/Raster/Sponsors/Sponsors.png';
 //VECTOR
 import menu from '../assets/Vector/menu.svg';
 import close from '../assets/Vector/close.svg';

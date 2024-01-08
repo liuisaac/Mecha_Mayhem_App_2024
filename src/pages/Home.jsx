@@ -11,15 +11,15 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className={'bg-gray-gradident ${styles.flexStart}'}>
+                <div className={'bg-[#000000] ${styles.flexStart} pt-12'}>
                     <div className={'$(styles.boxWidth}'}>
-                        <Register />
+                        <About_Mecha />
                     </div>
                 </div>
 
-                <div className={'bg-[#000000] ${styles.flexStart}'}>
+                <div className={'bg-gray-gradident ${styles.flexStart}'}>
                     <div className={'$(styles.boxWidth}'}>
-                        <About_Mecha />
+                        <Register />
                     </div>
                 </div>
 

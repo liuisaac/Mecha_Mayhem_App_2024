@@ -20,7 +20,7 @@ import TCEnergy from '../assets/Raster/Sponsors/Gold Sponsors/TCEnergy.png';
 import GES from '../assets/Raster/Sponsors/Silver Sponsors/GES.png';
 import Avantech from '../assets/Raster/Sponsors/Silver Sponsors/Avantech (Silver) .jpg';
 import Eaton from '../assets/Raster/Sponsors/Silver Sponsors/Eaton (Silver).jpg';
-import Fotile from '../assets/Raster/Sponsors/Silver Sponsors/Fotile (Silver).png';
+import Fotile from '../assets/Raster/Sponsors/Silver Sponsors/Fotile (Silver).svg';
 
 import Alphadigital from '../assets/Raster/Sponsors/Bronze Sponsors/Alphadigital (Bronze).png';
 import ANDMIR from '../assets/Raster/Sponsors/Bronze Sponsors/ANDMIR (Bronze).png';
@@ -31,6 +31,8 @@ import UofA from '../assets/Raster/Sponsors/Bronze Sponsors/UofA (Bronze).png';
 
 import IDesign from '../assets/Raster/Sponsors/Supporter/IDesign (Support).png';
 import TelusSpark from '../assets/Raster/Sponsors/Supporter/Telus Spark (Supporter).png';
+
+import Sponsor from '../assets/Raster/Sponsors/sponsors.png';
 //VECTOR
 import menu from '../assets/Vector/menu.svg';
 import close from '../assets/Vector/close.svg';
@@ -95,6 +97,7 @@ export {
     GES, Avantech, Eaton, Fotile,
     Alphadigital, ANDMIR, Calgary3D, GongCha, UofA, 
     IDesign, TelusSpark,
+    Sponsor,
 
     menu, close, search, leaf, triballsvg, tower,
     up_white, up_red, down_white, down_red,

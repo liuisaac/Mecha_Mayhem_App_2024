@@ -14,6 +14,7 @@ import {
     UofA,
     IDesign,
     TelusSpark,
+    Sponsor,
 } from "../../assets";
 const Sponsors = () => {
     return (
@@ -30,14 +31,16 @@ const Sponsors = () => {
                         EVENT SPONSORS!
                     </span>
                 </div>
-                <span
+
+                <img src={Sponsor} className="w-3/4" />
+                {/* <span
                     className="text-[#ffd900] font-poppins font-semibold italic tracking-[5px] 
             sm:text-5xl text-3xl mt-10 drop-shadow-[0_0px_5px_rgba(255,205,5,0.95)]"
                 >
                     GOLD SPONSORS
-                </span>
+                </span> */}
             </div>
-            <div className="bg-[#ffd900] w-4/5 h-1 rounded-full drop-shadow-[0_0px_5px_rgba(255,205,5,0.95)] my-5" />
+            {/* <div className="bg-[#ffd900] w-4/5 h-1 rounded-full drop-shadow-[0_0px_5px_rgba(255,205,5,0.95)] my-5" />
 
             <div className="flex-row justify-center items-center gap-10 sm:flex hidden">
                 <img src={Tourism} className="w-1/3" />
@@ -66,7 +69,7 @@ const Sponsors = () => {
             </div>
 
             {/* Alphadigital, ANDMIR, Calgary3D, GongCha, UofA, 
-    IDesign, TelusSpark, */}
+    IDesign, TelusSpark, 
             <span
                 className="text-[#f4a159] font-poppins font-semibold italic tracking-[5px] 
             sm:text-5xl text-3xl mt-20 drop-shadow-[0_0px_5px_rgba(400,150,100,0.95)]"
@@ -93,7 +96,7 @@ const Sponsors = () => {
             </span>
             <div className="bg-[#f45959] w-4/5 h-1 rounded-full drop-shadow-[0_0px_5px_rgba(400,50,100,0.95)] mt-5" />
             <img src={IDesign} className="w-1/4 mt-6" />
-            <img src={TelusSpark} className="w-1/4 mt-6" />
+            <img src={TelusSpark} className="w-1/4 mt-6" /> */}
         </div>
     );
 };

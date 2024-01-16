@@ -2,7 +2,7 @@ import React from 'react'
 import { incompletepage } from '../assets'
 
 
-
+//comment
 
 const Apparel = () => {
   window.location.href = ('https://stores.inksoft.com/mechamayhem/shop/home');

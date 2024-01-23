@@ -8,7 +8,7 @@ const ImageFlipper = () => {
 	const [numRotationsLeft, setNumRotationsLeft] = useState(12); // Used for both rotations until stop AND start
 	const [isFlipping, setIsFlipping] = useState(false);
 
-	const imageFlashDelay = 100;
+	const imageFlashDelay = 200;
 	const imageStayRotations = 75;
 
 	useInterval(() => {
@@ -18,22 +18,22 @@ const ImageFlipper = () => {
 		} else if(numRotationsLeft > 0 && !isFlipping) {
 			setNumRotationsLeft(num => num - 1);
 		} else {
-			setNumRotationsLeft(isFlipping ? imageStayRotations : 4);
+			setNumRotationsLeft(isFlipping ? imageStayRotations : 1);
 			setIsFlipping(f => !f);
 		}
 
-		console.log(numRotationsLeft);
-		console.log(isFlipping);
+		// console.log(numRotationsLeft);
+		// console.log(isFlipping);
 
 	}, imageFlashDelay);
 
 	return (
-		<div className="text-white overflow-x-clip z-20 relative">
+		<div className="text-white overflow-x-clip z-20 relative sm:flex hidden">
 			<svg className="absolute h-[125vh] -top-[10vh] -right-[5vw] overflow-x-hidden" width="578" height="844" viewBox="0 0 578 844" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
-				<g clip-path="url(#clip0_30_67)">
-					<path d="M395.027 714.548L394.511 716.648L392.356 716.823L50.5013 744.546L46.3869 744.88L47.3399 740.864L248.848 -108.438L249.604 -111.623L252.711 -110.593L569.052 -5.70618L571.682 -4.83418L571.021 -2.1432L395.027 714.548Z" fill="#D9D9D9" stroke="#FF0000" stroke-width="6"/>
+				<g clipPath="url(#clip0_30_67)">
+					<path d="M395.027 714.548L394.511 716.648L392.356 716.823L50.5013 744.546L46.3869 744.88L47.3399 740.864L248.848 -108.438L249.604 -111.623L252.711 -110.593L569.052 -5.70618L571.682 -4.83418L571.021 -2.1432L395.027 714.548Z" fill="#D9D9D9" stroke="#FF0000" strokeWidth="6"/>
 					<mask id="mask0_30_67" style={{ maskType: 'alpha' }} maskUnits="userSpaceOnUse" x="45" y="-113" width="528" height="859">
-						<path d="M394.056 714.309L393.712 715.709L392.275 715.826L50.4205 743.55L47.6775 743.772L48.3128 741.094L249.821 -108.207L250.325 -110.33L252.397 -109.643L568.737 -4.75702L570.491 -4.17567L570.05 -2.38168L394.056 714.309Z" fill="#D9D9D9" stroke="#FF0000" stroke-width="4"/>
+						<path d="M394.056 714.309L393.712 715.709L392.275 715.826L50.4205 743.55L47.6775 743.772L48.3128 741.094L249.821 -108.207L250.325 -110.33L252.397 -109.643L568.737 -4.75702L570.491 -4.17567L570.05 -2.38168L394.056 714.309Z" fill="#D9D9D9" stroke="#FF0000" strokeWidth="4"/>
 					</mask>
 					<g mask="url(#mask0_30_67)">
 						<rect x="-8" y="-1" width="595" height="770" fill="url(#pattern0)"/>

@@ -3,6 +3,7 @@ import logo1 from '../assets/Raster/logo.jpg';
 import splatter from '../assets/Raster/splatter.png'
 import bhero from '../assets/Raster/hero_img.jpg';
 import hero_footer from '../assets/Raster/hero_footer.png';
+import venue_map from '../assets/Raster/venue_map.png';
 
 import boat from '../assets/Raster/Lost/boat.png';
 import bullc from '../assets/Raster/Lost/bull.png';
@@ -109,5 +110,5 @@ export {
 
     photography_slide, sponsors, incompletepage,
 
-    hero_mb, register_mb, countdown_mb,
+    hero_mb, register_mb, countdown_mb, venue_map
 }

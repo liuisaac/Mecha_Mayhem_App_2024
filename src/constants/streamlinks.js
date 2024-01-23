@@ -6,7 +6,7 @@ export const streamlinks = [
     title: "Prairies Division Day 1",
     subtitle: "COMPLETE STREAM",
     year: ["20","24"],
-    path: "https://www.youtube.com/watch?v=WIRK_pGdIdA",
+    path: "https://youtube.com/live/otzrfzas6P0?feature=share",
     redirect: true,
     thumbnail: game2024,
     filters: ["prairies", "2024", "upcoming"]
@@ -15,7 +15,7 @@ export const streamlinks = [
   title: "Prairies Division Day 2",
   subtitle: "COMPLETE STREAM",
   year: ["20","24"],
-  path: "https://www.youtube.com/watch?v=WIRK_pGdIdA",
+  path: "https://youtube.com/live/PlsL4R3-2v8?feature=share",
   redirect: true,
   thumbnail: game2024,
   filters: ["prairies", "2024", "upcoming"]
@@ -24,7 +24,7 @@ export const streamlinks = [
     title: "Rockies Division Day 1",
     subtitle: "COMPLETE STREAM",
     year: ["20","24"],
-    path: "https://www.youtube.com/watch?v=WIRK_pGdIdA",
+    path: "https://youtube.com/live/9rqeSdv4O5A?feature=share",
     redirect: true,
     thumbnail: game2024,
     filters: ["rockies", "2024", "upcoming"]
@@ -33,7 +33,7 @@ export const streamlinks = [
     title: "Rockies Division Day 2",
     subtitle: "COMPLETE STREAM",
     year: ["20","24"],
-    path: "https://www.youtube.com/watch?v=WIRK_pGdIdA",
+    path: "https://youtube.com/live/EYozlFY-MoU?feature=share",
     redirect: true,
     thumbnail: game2024,
     filters: ["rockies", "2024", "upcoming"]

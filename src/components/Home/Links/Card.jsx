@@ -18,9 +18,7 @@ const Card = ({ bgImage, name, route, delay}) => {
 
   return (
     <div className='m-1 basis-1/5 hover:basis-[100%] shrink hover:grow min-w-[5%] transition-all duration-300 ease-in-out opacity-60 hover:opacity-100 -skew-x-12'>
-      <div data-aos="fade-right" 
-           data-aos-once="false" 
-           data-aos-delay={delay}
+      <div 
 
         className="group h-[500px] w-full
         border-gray-900 border-4 rounded-lg hover:border-red-500 hover:border-4 

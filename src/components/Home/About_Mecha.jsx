@@ -19,7 +19,6 @@ const About_Mecha = () => {
                     >
                         <h1
                             className="font-bold lg:text-[120px] md:text-9xl sm:text-8xl text-6xl text-[#d23a3a] drop-shadow-[0_2px_5px_rgba(255,0,0,0.5)] "
-                            data-aos="zoom-in"
                         >
                             160 Teams
                         </h1>
@@ -34,7 +33,6 @@ const About_Mecha = () => {
                         <div
                             className="font-bold flex flex-col items-align justify-center w-full h-screen 
         drop-shadow-[0_2px_5px_rgba(0,0,0,1)] sm:mt-[28vh] mt-[10vh]"
-                            data-aos="fade"
                         >
                             <div
                                 className="font-bold flex sm:flex-row flex-col items-align text-center justify-center mx-auto
@@ -48,9 +46,6 @@ const About_Mecha = () => {
 
                                 <div
                                     className="sm:hidden flex flex-row justify-center items-center w-full"
-                                    data-aos="fade-zoom-in"
-                                    data-aos-duration="1000"
-                                    data-aos-delay-300
                                 >
                                     <button
                                         type="submit"
@@ -75,9 +70,6 @@ const About_Mecha = () => {
 
                         <div
                             className="sm:grid hidden grid-cols-8 content-evenly items-center justify-center w-full sm:-mt-5 mt-[10vh]"
-                            data-aos="fade-zoom-in"
-                            data-aos-duration="1000"
-                            data-aos-delay-300
                         >
                             {/* <button 
                   type="submit" 
@@ -114,7 +106,6 @@ const About_Mecha = () => {
                     >
                         <h1
                             className="font-bold mx-5 mt-12 invisible sm:visible text-[100px] md:text-[120px] text-[#d23a3a] drop-shadow-[0_2px_5px_rgba(255,0,0,0.5)]"
-                            data-aos="zoom-in"
                         >
                             4 Worlds Spots
                         </h1>
@@ -125,14 +116,14 @@ const About_Mecha = () => {
                             <h1 className="font-bold text-3xl text-red-500 drop-shadow-[0_2px_5px_rgba(255,0,0,0.5)] sm:hidden flex flex-row items-center justify-center">
                                 What is Mecha Mayhem?
                             </h1>
-                            <p className="mt-5" data-aos="fade-left">
+                            <p className="mt-5">
                                 Mecha Mayhem is a VEX Signature Event that
                                 brings together High School and Middle School
                                 teams from all around the world to compete
                                 against each other at the BMO Center in Calgary,
                                 AB, Canada.
                             </p>
-                            <p className="mt-5" data-aos="fade-right">
+                            <p className="mt-5">
                                 Teams will have an opportunity to become{" "}
                                 <span className="font-bold">
                                     Mecha Mayhem Tournament Champions

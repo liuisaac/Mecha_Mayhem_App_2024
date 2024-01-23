@@ -85,9 +85,6 @@ const Register = () => {
 					<img
 						src={tower}
 						className="sm:block hidden"
-						data-aos="fade-up"
-						data-aos-easing="ease-in-sine"
-						data-aos-duration="500"
 					/>
           			<img src={register_mb} className="w-[60vh] mx-auto mt-12 sm:hidden visible"/>
 				</div>
@@ -99,8 +96,6 @@ const Register = () => {
 					<h1
 						className="text-white font-semibold mx-auto drop-shadow-[0_2px_5px_rgba(255,255,255,0.4)]  
           xl:text-6xl lg:text-5xl sm:text-4xl text-3xl text-center"
-						data-aos="fade-zoom-in"
-						data-aos-duration="700"
 					>
 						SIGN UP <span className="sm:block hidden">TO RECIEVE UPDATES</span>
 					</h1>
@@ -108,9 +103,6 @@ const Register = () => {
 					<p
 						className="text-white sm:mt-8 mx-10 font-light
           xl:text-3xl md:text-2xl sm:text-lg text-sm md:block hidden drop-shadow-[0_2px_5px_rgba(255,255,255,0.4)] "
-						data-aos="fade-zoom-in"
-						data-aos-duration="700"
-						data-aos-delay-200
 					>
 						Receive e-mail updates regarding this event by
 						submitting the form below.
@@ -122,9 +114,6 @@ const Register = () => {
 						className="w-5/6 mb-10 mt-10 sm:mt-2"
             animate={{opacity: formOpacity}}
             transition={{duration: 0.4}}
-						data-aos="fade-zoom-in"
-						data-aos-duration="1000"
-						data-aos-delay-200
 					>
 						<div
 							className="grid sm:gap-1 gap-5 sm:grid-cols-2 sm:grid-rows-1 grid-rows-2 font-light text-[20px]
@@ -176,9 +165,6 @@ const Register = () => {
 					{
 						!signedUp && <motion.div
 							className="grid grid-cols-10 content-evenly items-center w-5/6"
-							data-aos="fade-zoom-in"
-							data-aos-duration="1000"
-							data-aos-delay-300
               animate={{opacity: formOpacity}}
               transition={{duration: 0.4}}
 						>

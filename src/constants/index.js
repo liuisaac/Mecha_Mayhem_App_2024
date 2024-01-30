@@ -30,10 +30,16 @@ export const navLinks = [
     stagger: 500,
   },
   {
+    id: "/drivers",
+    path: "/drivers",
+    title: "DRIVERS",
+    stagger: 600,
+  },
+  {
     id: "/info",
     path: "/info",
     title: "INFO",
-    stagger: 600,
+    stagger: 700,
   }
 ];
 

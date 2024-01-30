@@ -9,11 +9,11 @@ import Photography from "./pages/Photography";
 import Stream  from "./pages/Stream";
 import PageNotFound from "./pages/PageNotFound";
 import Stats from "./pages/Stats";
-
 import './index.css' 
 
 import Aos from 'aos';
 import 'aos/dist/aos.css' // hello there
+import Drivers from "./pages/Drivers";
 
 
 Aos.init({
@@ -31,6 +31,7 @@ const App = () => (
       <Route path="/info" element={<Info />} />
       <Route path="/photography" element={<Photography />} />
       <Route path="/stream" element={<Stream />} />
+      <Route path="/drivers" element={<Drivers />} />
       <Route path="/stats" element={<Stats />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>

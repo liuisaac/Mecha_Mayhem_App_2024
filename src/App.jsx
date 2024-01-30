@@ -32,6 +32,7 @@ const App = () => (
       <Route path="/photography" element={<Photography />} />
       <Route path="/stream" element={<Stream />} />
       <Route path="/drivers" element={<Drivers />} />
+      <Route path="/driver" element={<Drivers />} />
       <Route path="/stats" element={<Stats />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>

@@ -21,8 +21,35 @@ const Home = () => {
                     "bg-gray-gradient flex flex-col items-center justify-center w-screen"
                 }
             >
-                <div className="mt-16">
-                    <h4 className="text-red-500 text-7xl font-poppins font-bold mb-4">
+                <div className="mt-16 w-screen flex flex-col justify-center items-center">
+                <h4 className="text-red-500 text-7xl font-poppins font-bold mb-4 text-center mt-16">
+                        IMPORTANT LINKS
+                    </h4>
+                    <button
+                        type="submit"
+                        className="text-white bg-black bg-opacity-20 border-white hover:border-red-500 border-[1px] hover:bg-[#323136] focus:ring-2
+          focus:outline-none focus:ring-red-500 h-8 drop-shadow-2xl transition duration-400 ease-in-out 
+          text-xl w-full sm:w-auto text-center tracking-wide font-semibold mt-[10vh] mb-32 px-16"
+                        onClick={() => {
+                            window.location.href =
+                                "https://www.youtube.com/@WestMechRobotics/streams";
+                        }}
+                    >
+                        GO TO LIVESTREAM
+                    </button>
+                    <button
+                        type="submit"
+                        className="text-white bg-black bg-opacity-20 border-white hover:border-red-500 border-[1px] hover:bg-[#323136] focus:ring-2
+          focus:outline-none focus:ring-red-500 h-8 drop-shadow-2xl transition duration-400 ease-in-out 
+          text-xl w-full sm:w-auto text-center tracking-wide font-semibold mt-[5] mb-32 px-16"
+                        onClick={() => {
+                            window.location.href =
+                                "https://www.zeffy.com/en-CA/ticketing/8d60dbf4-af3d-4bc3-822a-b4475da29ff9";
+                        }}
+                    >
+                        REGISTER AS A SPECTATOR
+                    </button>
+                    <h4 className="text-red-500 text-7xl font-poppins font-bold mb-4 text-center">
                         EVENT SCHEDULE
                     </h4>
                     <div className="flex flex-col justify-center items-center text-center">
@@ -240,8 +267,12 @@ const Home = () => {
                                     is present
                                 </span>
                                 <span className="text-white text-3xl font-semi-bold my-8 block text-left">
-                                    4. Contact Justin Zhou at 
-                                    <span className="text-red-500"> justin@westernmech.ca </span> if there is an issue
+                                    4. Contact Justin Zhou at
+                                    <span className="text-red-500">
+                                        {" "}
+                                        justin@westernmech.ca{" "}
+                                    </span>{" "}
+                                    if there is an issue
                                 </span>
                             </div>
 

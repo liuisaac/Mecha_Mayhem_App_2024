@@ -9,7 +9,7 @@ export const streamlinks = [
     path: "https://youtube.com/live/otzrfzas6P0?feature=share",
     redirect: true,
     thumbnail: game2024,
-    filters: ["prairies", "2024", "upcoming"]
+    filters: ["prairies", "2024", "live"]
   },
   {
   title: "Prairies Division Day 2",
@@ -27,7 +27,7 @@ export const streamlinks = [
     path: "https://youtube.com/live/9rqeSdv4O5A?feature=share",
     redirect: true,
     thumbnail: game2024,
-    filters: ["rockies", "2024", "upcoming"]
+    filters: ["rockies", "2024", "live"]
   },
   {
     title: "Rockies Division Day 2",

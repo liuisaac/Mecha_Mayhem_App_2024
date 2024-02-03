@@ -6,7 +6,7 @@ export const streamlinks = [
     title: "Prairies Division Day 1",
     subtitle: "COMPLETE STREAM",
     year: ["20","24"],
-    path: "https://www.youtube.com/live/otzrfzas6P0?feature=shared",
+    path: "https://www.youtube.com/live/-OhkYU0FjJo?feature=shared",
     redirect: true,
     thumbnail: game2024,
     filters: ["prairies", "2024", "live"]

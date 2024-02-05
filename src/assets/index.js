@@ -34,6 +34,8 @@ import IDesign from '../assets/Raster/Sponsors/Supporter/IDesign (Support).png';
 import TelusSpark from '../assets/Raster/Sponsors/Supporter/Telus Spark (Supporter).png';
 
 import Sponsor from '../assets/Raster/Sponsors/Sponsors.png';
+import Brochure from '../assets/Raster/Brochure.png';
+import Brochure1 from '../assets/Raster/Brochure1.png';
 //VECTOR
 import menu from '../assets/Vector/menu.svg';
 import close from '../assets/Vector/close.svg';
@@ -105,7 +107,7 @@ export {
     bull, text_1, text_2, banner, marquee, 
     red, green, blue, wrap, bannermobile,
     main, bullc, streak, moanky, boat,
-    git, gmail, insta, yt, main_lost,
+    git, gmail, insta, yt, main_lost, Brochure, Brochure1,
     bg_vid, p, r, circle_arrow, circle_arrow_back, fullStreamBG,
 
     photography_slide, sponsors, incompletepage,

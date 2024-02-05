@@ -1,6 +1,6 @@
 import React from "react";
 import ImageFlipper from "./../components/Info/ImageFlipper";
-import { venue_map } from "../assets";
+import { Brochure, Brochure1, venue_map } from "../assets";
 
 const Info = () => {
     return (
@@ -97,6 +97,21 @@ const Info = () => {
                             src={venue_map}
                             className="sm:w-1/2 w-full mt-8 "
                         />
+                    </div>
+                    <div className="mt-16">
+                        <h4 className="text-red-500 text-4xl font-rubik font-bold ">
+                            | SPECTATOR'S BROCHURE
+                        </h4>
+                        <div className="flex flex-col gap-6">
+                            <img
+                                src={Brochure}
+                                className="w-full mt-8 "
+                            />
+                            <img
+                                src={Brochure1}
+                                className="w-full mt-8 "
+                            />
+                        </div>
                     </div>
 
                     <div className="mt-16">

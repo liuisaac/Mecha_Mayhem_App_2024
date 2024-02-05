@@ -54,10 +54,10 @@ const About_Mecha = () => {
           sm:text-xl text-sm w-full sm:w-auto text-center tracking-wide font-semibold mt-[10vh]"
                                         onClick={() => {
                                             window.location.href =
-                                                "https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-23-1496.html#general-info";
+                                                "https://www.zeffy.com/en-CA/ticketing/8d60dbf4-af3d-4bc3-822a-b4475da29ff9";
                                         }}
                                     >
-                                        Register for Mecha Mayhem 2024
+                                        Register as a SPECTATOR (free!)
                                     </button>
                                 </div>
                             </div>

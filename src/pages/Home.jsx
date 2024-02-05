@@ -16,7 +16,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div
+            {/* <div
                 className={
                     "bg-gray-gradient flex flex-col items-center justify-center w-screen"
                 }
@@ -282,7 +282,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className={"bg-[#000000] ${styles.flexStart} pt-12"}>
                 <div className={"$(styles.boxWidth}"}>

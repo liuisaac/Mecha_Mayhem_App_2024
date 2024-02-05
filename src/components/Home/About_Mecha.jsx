@@ -82,7 +82,7 @@ const About_Mecha = () => {
                   }}>
                     Register as a COMPETETITOR!
                   </button> */}
-                            <button
+                            {/* <button
                                 type="submit"
                                 className="col-start-3 col-span-4 text-white bg-black border-gray-300 border-2 hover:bg-white focus:ring-2
                   focus:outline-none focus:ring-red-500 h-16 drop-shadow-2xl transition duration-500 ease-in-out 
@@ -93,7 +93,7 @@ const About_Mecha = () => {
                                 }}
                             >
                                 Register as a SPECTATOR (free!)
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>

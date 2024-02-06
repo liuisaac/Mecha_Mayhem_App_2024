@@ -33,7 +33,7 @@ export const streamlinks = [
     title: "Rockies Division Day 2",
     subtitle: "COMPLETE STREAM",
     year: ["20","24"],
-    path: "https://youtube.com/live/EYozlFY-MoU?feature=share",
+    path: "https://www.youtube.com/watch?v=4U6Blgs5arg",
     redirect: true,
     thumbnail: game2024,
     filters: ["rockies", "2024", "completed"]

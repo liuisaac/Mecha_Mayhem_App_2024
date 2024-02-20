@@ -39,13 +39,13 @@ export const navLinks = [
     id: "/stats",
     path: "/stats",
     title: "STATS",
-    stagger: 600,
+    stagger: 700,
   },
   {
     id: "/info",
     path: "/info",
     title: "INFO",
-    stagger: 700,
+    stagger: 800,
   }
 ];
 

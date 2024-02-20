@@ -9,7 +9,7 @@ export const streamlinks = [
     path: "https://www.youtube.com/live/-OhkYU0FjJo?feature=shared",
     redirect: true,
     thumbnail: game2024,
-    filters: ["prairies", "2024", "live"]
+    filters: ["prairies", "2024", "completed"]
   },
   {
   title: "Prairies Division Day 2",
@@ -18,7 +18,7 @@ export const streamlinks = [
   path: "https://youtube.com/live/PlsL4R3-2v8?feature=share",
   redirect: true,
   thumbnail: game2024,
-  filters: ["prairies", "2024", "upcoming"]
+  filters: ["prairies", "2024", "completed"]
   },
   {
     title: "Rockies Division Day 1",
@@ -27,16 +27,16 @@ export const streamlinks = [
     path: "https://youtube.com/live/9rqeSdv4O5A?feature=share",
     redirect: true,
     thumbnail: game2024,
-    filters: ["rockies", "2024", "live"]
+    filters: ["rockies", "2024", "completed"]
   },
   {
     title: "Rockies Division Day 2",
     subtitle: "COMPLETE STREAM",
     year: ["20","24"],
-    path: "https://youtube.com/live/EYozlFY-MoU?feature=share",
+    path: "https://www.youtube.com/watch?v=4U6Blgs5arg",
     redirect: true,
     thumbnail: game2024,
-    filters: ["rockies", "2024", "upcoming"]
+    filters: ["rockies", "2024", "completed"]
   },
 
 

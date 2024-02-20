@@ -41,10 +41,10 @@ const About_Mecha = () => {
                                 {/* <span className="mt-2"> FREE TO  </span> */}
 
                                 <span className="sm:text-red-500 text-[#EF4444] drop-shadow-[0_2px_5px_rgba(255,150,150,0.5)] mt-2">
-                                    SPECTATE FOR FREE!
+                                    MECHA MAYHEM 2024 IS OVER!
                                 </span>
 
-                                <div
+                                {/* <div
                                     className="sm:hidden flex flex-row justify-center items-center w-full"
                                 >
                                     <button
@@ -59,11 +59,11 @@ const About_Mecha = () => {
                                     >
                                         Register as a SPECTATOR (free!)
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="w-full flex flex-row items-center justify-center italic font-normal">
                                 <span className="sm:w-3/4 w-full bg-black sm:bg-opacity-60 bg-opacity-50 text-2xl md:text-3xl lg:text-4xl text-center pt-4">
-                                  See you at Mecha!
+                                  See you next year!
                                 </span>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ const About_Mecha = () => {
                   }}>
                     Register as a COMPETETITOR!
                   </button> */}
-                            <button
+                            {/* <button
                                 type="submit"
                                 className="col-start-3 col-span-4 text-white bg-black border-gray-300 border-2 hover:bg-white focus:ring-2
                   focus:outline-none focus:ring-red-500 h-16 drop-shadow-2xl transition duration-500 ease-in-out 
@@ -93,7 +93,7 @@ const About_Mecha = () => {
                                 }}
                             >
                                 Register as a SPECTATOR (free!)
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>

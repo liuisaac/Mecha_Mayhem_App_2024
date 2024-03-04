@@ -16,6 +16,10 @@ const directoryData = {
     "Tim Videos": "https://drive.google.com/drive/folders/1f1RZNL3Q6-c05G4nBBFYR9TfTMBRJa2B?usp=drive_link",
 }
 
+const data2024 = {
+  "Merc Media Team" : "https://www.flickr.com/photos/mercmediateam/albums/"
+}
+
 const JumpToLinks = () => {
 
   return (
@@ -24,7 +28,7 @@ const JumpToLinks = () => {
 
         <div className='flex w-full gap-16'>
             <Directory data={directoryData} title={"2023"} />
-            <Directory title={"2024"} />
+            <Directory data = {data2024} title={"2024"} />
         </div>
 
     </div>

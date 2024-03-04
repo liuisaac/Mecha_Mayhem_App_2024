@@ -36,10 +36,16 @@ export const navLinks = [
     stagger: 600,
   },
   {
+    id: "/stats",
+    path: "/stats",
+    title: "STATS",
+    stagger: 700,
+  },
+  {
     id: "/info",
     path: "/info",
     title: "INFO",
-    stagger: 700,
+    stagger: 800,
   }
 ];
 

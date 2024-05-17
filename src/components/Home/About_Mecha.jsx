@@ -41,7 +41,7 @@ const About_Mecha = () => {
                                 {/* <span className="mt-2"> FREE TO  </span> */}
 
                                 <span className="sm:text-red-500 text-[#EF4444] drop-shadow-[0_2px_5px_rgba(255,150,150,0.5)] mt-2">
-                                    MECHA MAYHEM 2024 IS OVER!
+                                    MECHA MAYHEM 2025 IS COMING SOON!
                                 </span>
 
                                 {/* <div
@@ -63,7 +63,7 @@ const About_Mecha = () => {
                             </div>
                             <div className="w-full flex flex-row items-center justify-center italic font-normal">
                                 <span className="sm:w-3/4 w-full bg-black sm:bg-opacity-60 bg-opacity-50 text-2xl md:text-3xl lg:text-4xl text-center pt-4">
-                                  See you next year!
+                                  See you soon!
                                 </span>
                             </div>
                         </div>
@@ -118,7 +118,7 @@ const About_Mecha = () => {
                             </h1>
                             <p className="mt-5">
                                 Mecha Mayhem is a VEX Signature Event that
-                                brings together High School and Middle School
+                                brings together University, High School, and Middle School
                                 teams from all around the world to compete
                                 against each other at the BMO Center in Calgary,
                                 AB, Canada.

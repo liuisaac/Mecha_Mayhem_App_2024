@@ -21,11 +21,11 @@ const Sponsors = () => {
         <div className="flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center">
                 <span className="text-white font-poppins font-bold lg:text-6xl sm:text-4xl xs:text-2xl text-lg mt-16 my-5 overflow-hidden hidden sm:flex">
-                    THANKS TO OUR EVENT SPONSORS!
+                    THANKS TO LAST YEAR'S EVENT SPONSORS!
                 </span>
                 <div className="flex-col justify-center items-center sm:hidden flex mt-10">
                     <span className="text-white font-poppins font-bold lg:text-[72px] sm:text-4xl xs:text-5xl text-4xl mt-2 overflow-hidden">
-                        THANKS TO OUR
+                        THANKS TO LAST YEAR'S
                     </span>
                     <span className="text-white font-poppins font-bold lg:text-[72px] sm:text-4xl xs:text-5xl text-4xl mt-2 overflow-hidden">
                         EVENT SPONSORS!
